@@ -60,6 +60,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "restaurant", "restaurant\",
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "37148"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Bingo.com", "Bingo.com\", "{1CB0145B-0AC6-44C2-A963-7C13EE4BD0F5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Bingo.com"
+		Debug.AspNetCompiler.PhysicalPath = "Bingo.com\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Bingo.com\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Bingo.com"
+		Release.AspNetCompiler.PhysicalPath = "Bingo.com\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Bingo.com\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -78,6 +99,8 @@ Global
 		{F5CDB49C-87F3-4D79-8BCA-E08CAB5CFB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11F5BE46-2429-4BA4-8423-000A763EAC13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{11F5BE46-2429-4BA4-8423-000A763EAC13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB0145B-0AC6-44C2-A963-7C13EE4BD0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB0145B-0AC6-44C2-A963-7C13EE4BD0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
