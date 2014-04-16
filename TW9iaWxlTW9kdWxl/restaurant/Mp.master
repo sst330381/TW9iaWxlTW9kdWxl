@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Mp.master.cs" Inherits="Mp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;">
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css"></style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="container" class="page-home">
+        <header>
+            <a href="/index.aspx" id="logo">Meat &amp; Recipes</a>
+        </header>
+        <form id="form1" runat="server">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <div class="clearfix">
+            <div id="open-write">
+                open menu</div>
+        </div>
+        <nav id="main-menu">
+            <div id="menuPick">
+                Tap Here</div>
+            <ul style="display: none;">
+                <li><a href="Aboutus.aspx">关于我们</a></li>
+                <li><a href="Menuprices.aspx">菜单 &amp; 价格</a></li>
+                <li><a href="Gallery.aspx">Gallery</a></li>
+                <li><a href="Userinfo.aspx">用户信息</a></li>
+                <li><a href="Contacts.aspx">地图 &amp; 联系我们</a></li>
+                <li><a href="News.aspx">最新资讯</a></li>
+            </ul>
+        </nav><!--/#main-menu-->
+        <footer>Hangzhou Motherfucker Co - © All rights Reseved</footer>
+    </div>
+    </form>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>
