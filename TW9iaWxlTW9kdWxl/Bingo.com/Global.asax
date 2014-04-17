@@ -17,10 +17,25 @@
             false, //是否需要检查用户权限
             new RouteValueDictionary { { "page", "modifypwd" } });
         routes.MapPageRoute("help", //给这个UrlRouting规则起一个名字
-            "site/help/{0}", //希望的友好Url地址格式
-            "~/site/help/help{0}.htm", //映射到的aspx页面路径
+            "site/help/{page}", //希望的友好Url地址格式
+            "~/site/help/help{page}.htm", //映射到的aspx页面路径
             false, //是否需要检查用户权限
-            new RouteValueDictionary { { "page", "modifypwd" } });
+            new RouteValueDictionary { { "page", "1" } });
+        routes.MapPageRoute("account", //给这个UrlRouting规则起一个名字
+            "wechat/addaccount/aid/{id}", //希望的友好Url地址格式
+            "~/wechat/addaccount.aspx", //映射到的aspx页面路径
+            false, //是否需要检查用户权限
+            new RouteValueDictionary { { "id", "1" } });
+        routes.MapPageRoute("account_index", //给这个UrlRouting规则起一个名字
+            "wechat/index/aid/{id}", //希望的友好Url地址格式
+            "~/wechat/Index.aspx", //映射到的aspx页面路径
+            false, //是否需要检查用户权限
+            new RouteValueDictionary { { "id", "1" } });
+        routes.MapPageRoute("account_home", //给这个UrlRouting规则起一个名字
+            "wechat/home/aid/{id}", //希望的友好Url地址格式
+            "~/wechat/home.aspx", //映射到的aspx页面路径
+            false, //是否需要检查用户权限
+            new RouteValueDictionary { { "id", "1" } });
     }
 
     void Application_End(object sender, EventArgs e)

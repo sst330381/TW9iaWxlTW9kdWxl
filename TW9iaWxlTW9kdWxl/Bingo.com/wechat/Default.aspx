@@ -103,7 +103,7 @@
                         我的微盟</span></a>
                 </div>
                 <ul class="subnav-menu" style="display: block;">
-                    <li class="active"><a href="/wechat/account.aspx">商户信息</a> </li>
+                    <li class="active"><a href="/wechat/user.aspx">商户信息</a> </li>
                     <li class=""><a href="/payment/lists.aspx">支付方式管理</a> </li>
                     <li class=""><a href="/wechat/modifypwd.aspx">修改密码</a> </li>
                     <li class=""><a href="/wechat/account.aspx">公众帐号管理</a> </li>
