@@ -36,6 +36,26 @@
             "~/wechat/home.aspx", //映射到的aspx页面路径
             false, //是否需要检查用户权限
             new RouteValueDictionary { { "id", "1" } });
+        routes.MapPageRoute("account_reply_easy", //给这个UrlRouting规则起一个名字
+            "wechat/replysubscribe/aid/{id}", //希望的友好Url地址格式
+            "~/wechat/replysubscribe.aspx", //映射到的aspx页面路径
+            false, //是否需要检查用户权限
+            new RouteValueDictionary { { "id", "1" } });
+        routes.MapPageRoute("account_reply_complex", //给这个UrlRouting规则起一个名字
+            "wechat/replysubscribenews/aid/{id}", //希望的友好Url地址格式
+            "~/wechat/replysubscribenews.aspx", //映射到的aspx页面路径
+            false, //是否需要检查用户权限
+            new RouteValueDictionary { { "id", "1" } });
+        routes.MapPageRoute("account_addtext", //给这个UrlRouting规则起一个名字
+            "wechat/addtext/aid/{id}", //希望的友好Url地址格式
+            "~/wechat/addtext.aspx", //映射到的aspx页面路径
+            false, //是否需要检查用户权限
+            new RouteValueDictionary { { "id", "1" } });
+        routes.MapPageRoute("account_addnews", //给这个UrlRouting规则起一个名字
+            "wechat/addnews/aid/{id}", //希望的友好Url地址格式
+            "~/wechat/addnews.aspx", //映射到的aspx页面路径
+            false, //是否需要检查用户权限addnews/
+            new RouteValueDictionary { { "id", "1" } });
     }
 
     void Application_End(object sender, EventArgs e)
