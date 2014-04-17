@@ -794,12 +794,12 @@
                 "method": "tuwen_data"
             }
 
-            $.ajax("/Count/Funs", {
-                type: "get", dataType: "json",
-                data: data
-            }).done(function (d) {
-                wm_charts.line('charts-stream', d);
-            }).fail(function () { G.ui.tips.err("网络异常") });
+//            $.ajax("/Count/Funs", {
+//                type: "get", dataType: "json",
+//                data: data
+//            }).done(function (d) {
+//                wm_charts.line('charts-stream', d);
+//            }).fail(function () { G.ui.tips.err("网络异常") });
 
 
             var date = new Date();

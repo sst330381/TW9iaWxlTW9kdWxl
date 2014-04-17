@@ -110,7 +110,7 @@
                     <a href="javascript:void(0);" class="toggle-subnav"><i class="icon-angle-right"></i>
                         <span>我的微盟</span></a>
                 </div>
-                <ul class="subnav-menu" style="display: none;">
+                <ul class="subnav-menu" style="display: block;">
                     <li class="active"><a href="/wechat/home?aid=113986">账户信息</a> </li>
                 </ul>
             </div>
@@ -150,7 +150,7 @@
                     <a href="javascript:void(0);" class="toggle-subnav"><i class="icon-angle-down"></i><span>
                         微服务</span></a>
                 </div>
-                <ul class="subnav-menu" style="display: block;">
+                <ul class="subnav-menu" style="display: none;">
                     <li><a href="/wechat/app?aid=113986">应用管理</a> </li>
                 </ul>
             </div>
