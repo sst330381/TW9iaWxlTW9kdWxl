@@ -76,6 +76,11 @@
             "~/microsite/addclass.aspx", //映射到的aspx页面路径
             false, //是否需要检查用户权限addnews/
             new RouteValueDictionary { { "aid", "1" }, { "cid", "1" } });
+        routes.MapPageRoute("microsite_addplugmenu", //给这个UrlRouting规则起一个名字
+            "microsite/plugmenued/aid/{id}", //希望的友好Url地址格式
+            "~/microsite/plugmenued.aspx", //映射到的aspx页面路径
+            false, //是否需要检查用户权限addnews/
+            new RouteValueDictionary { { "id", "1" } });
     }
 
     void Application_End(object sender, EventArgs e)

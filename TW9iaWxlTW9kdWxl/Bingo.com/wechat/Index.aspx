@@ -169,7 +169,7 @@
                     <li><a href="/festivalactivity/index?aid=113986">圣诞活动</a> </li>
                 </ul>
             </div>
-            <div class="subnav">
+            <%--<div class="subnav">
                 <div class="subnav-title">
                     <a href="javascript:void(0);" class="toggle-subnav"><i class="icon-angle-right"></i>
                         <span>微拍</span></a>
@@ -216,7 +216,7 @@
                     <li><a href="/NewMemberAnnounce/NoticeList?aid=113986">通知管理</a> </li>
                     <li><a href="/newmem/CountMember?aid=113986">数据统计</a> </li>
                 </ul>
-            </div>
+            </div>--%>
             <div class="subnav">
                 <div class="subnav-title">
                     <a href="javascript:void(0);" class="toggle-subnav"><i class="icon-angle-right"></i>
@@ -228,10 +228,9 @@
                     <li><a href="/microsite/class?aid=113986">分类管理</a> </li>
                     <li><a href="/microsite/template?aid=113986">模板管理</a> </li>
                     <li><a href="/microsite/plugmenu?aid=113986">快捷与版权</a> </li>
-                    <li><a href="/microsite/plugin?aid=113986">实用工具</a> </li>
                 </ul>
             </div>
-            <div class="subnav">
+            <%--<div class="subnav">
                 <div class="subnav-title">
                     <a href="javascript:void(0);" class="toggle-subnav"><i class="icon-angle-right"></i>
                         <span>数据魔方</span></a>
@@ -442,7 +441,7 @@
                 </div>
                 <ul class="subnav-menu" style="">
                 </ul>
-            </div>
+            </div>--%>
             <div class="subnav bottom" style="margin-bottom: 20px;">
                 <div class="subnav-title">
                     <a href="javascript:void(0);" class="toggle-subnav"><i class="icon-angle-right"></i>
