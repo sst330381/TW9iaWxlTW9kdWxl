@@ -87,6 +87,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "html5demo", "html5demo\", "{073015E1-1B3F-4E5A-B5D7-A59B00C95065}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{F1867326-9536-4EA2-A3D7-81845955129D}|CommonLibrary.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/html5demo"
 		Debug.AspNetCompiler.PhysicalPath = "html5demo\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\html5demo\"
