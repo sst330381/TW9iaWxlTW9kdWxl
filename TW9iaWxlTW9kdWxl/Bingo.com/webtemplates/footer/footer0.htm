@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/css/template/reset.css?2014-03-07-1"
+        media="all">
+    <link rel="stylesheet" type="text/css" href="/css/template/common.css?2014-03-07-1"
+        media="all">
+    <title>旅游在线</title>
+</head>
+<body onselectstart="return true;" ondragstart="return false;">
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.css?v=2014042411"
+        media="all">
+    <!--
+导航菜单
+   后台设置的快捷菜单
+-->
+    <section>
+        <div class="plug-div">
+            <div id="plug-phone" class="plug-phone">
+                <input type="checkbox" id="plug-btn" class="plug-menu" style="background-color: #B70000;">
+                <div style="background-color: #B70000;">
+                    <a href="http://www.baidu.com" class="icon-bullhorn"></a>
+                </div>
+                <div style="background-color: #B70000;">
+                    <a href="http://113986.vshop.weimob.com?wechatid=fromUsername&amp;v=d197c365d4fb80ad5b6956ffe151d601&amp;wxref=mp.weixin.qq.com"
+                        class="icon-user-md"></a>
+                </div>
+                <div style="background-color: #B70000;">
+                    <a href="/Webestate/Index?pid=113986&amp;wechatid=fromUsername&amp;wxref=mp.weixin.qq.com"
+                        class="icon-globe "></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        window.addEventListener("DOMContentLoaded", function () {
+            btn = document.getElementById("plug-btn");
+            btn.onclick = function () {
+                var divs = document.getElementById("plug-phone").querySelectorAll("div");
+                var className = className = this.checked ? "on" : "";
+                for (i = 0; i < divs.length; i++) {
+                    divs[i].className = className;
+                }
+                document.getElementById("plug-wrap").style.display = "on" == className ? "block" : "none";
+            }
+        }, false);
+    </script>
+</body>
+</html>

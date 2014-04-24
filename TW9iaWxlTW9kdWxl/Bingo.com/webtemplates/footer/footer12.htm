@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/css/template/reset.css?2014-03-07-1"
+        media="all">
+    <link rel="stylesheet" type="text/css" href="/css/template/snower.css?2014-03-07-1"
+        media="all">
+    <link rel="stylesheet" type="text/css" href="/css/template/weimob-ui-1-1.css?2014-03-07-1"
+        media="all">
+    <link rel="stylesheet" type="text/css" href="/css/template/common.css?2014-03-07-1"
+        media="all">
+    <link rel="stylesheet" type="text/css" href="/css/template/home-3.css?2014-03-07-1"
+        media="all">
+    <link rel="stylesheet" type="text/css" href="/css/template/home-menu-12.css?2014-03-07-1"
+        media="all">
+    <title></title>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.css?v=2014042414"
+        media="all">
+    <div class="showlist" id="showlist" style="right: 0px;">
+        <div class="icon">
+        </div>
+    </div>
+    <div class="nav" id="nav">
+        <ul>
+            <li><a href="http://113986.vshop.weimob.com?wechatid=fromUsername&amp;v=d197c365d4fb80ad5b6956ffe151d601&amp;wxref=mp.weixin.qq.com">
+                <div class="icon icon-bullhorn">
+                </div>
+                <div class="title">
+                    商城</div>
+            </a></li>
+            <li><a href="http://113986.vshop.weimob.com/about.html?wechatid=fromUsername&amp;v=d197c365d4fb80ad5b6956ffe151d601&amp;wxref=mp.weixin.qq.com">
+                <div class="icon icon-building">
+                </div>
+                <div class="title">
+                    品牌介绍</div>
+            </a></li>
+            <li><a href="http://113986.vshop.weimob.com/cart.html?wechatid=fromUsername&amp;v=d197c365d4fb80ad5b6956ffe151d601&amp;wxref=mp.weixin.qq.com">
+                <div class="icon icon-globe ">
+                </div>
+                <div class="title">
+                    购物车</div>
+            </a></li>
+            <li><a href="tel:18072957925">
+                <div class="icon icon-phone">
+                </div>
+                <div class="title">
+                    Callme</div>
+            </a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        var nav = document.getElementById("nav");
+        var showlist = document.getElementById("showlist");
+        showlist.style.right = 0;
+        showlist.onclick = function () {
+            right = showlist.style.right;
+            if (right == "0px") {
+                showlist.style.right = "60px";
+                nav.style.display = "block";
+            }
+            else {
+                showlist.style.right = "0px";
+                nav.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

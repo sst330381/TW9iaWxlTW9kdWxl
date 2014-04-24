@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/css/template/reset.css?2014-03-07-1"
+        media="all">
+    <link rel="stylesheet" type="text/css" href="/css/template/snower.css?2014-03-07-1"
+        media="all">
+    <link rel="stylesheet" type="text/css" href="/css/template/weimob-ui-1-1.css?2014-03-07-1"
+        media="all">
+    <link rel="stylesheet" type="text/css" href="/css/template/common.css?2014-03-07-1"
+        media="all">
+    <link rel="stylesheet" type="text/css" href="/css/template/home-3.css?2014-03-07-1"
+        media="all">
+    <link rel="stylesheet" type="text/css" href="/css/template/home-menu-2.css?2014-03-07-1"
+        media="all">
+    <script type="text/javascript" src="/src/jQuery.js?2014-03-07-1"></script>
+    <title>旅游在线</title>
+</head>
+<body onselectstart="return true;" ondragstart="return false;">
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.css?v=2014042414"
+        media="all">
+    <!--
+导航菜单
+   后台设置的快捷菜单
+-->
+    <div class="top_bar footer_bar" style="-webkit-transform: translate3d(0,0,0)">
+        <nav>
+            <ul class="top_menu">
+                <li onclick="location.reload();"><span></span></li>
+                <!-- 首页：刷新 -->
+                <li><a href="http://www.baidu.com"><span class="icon-bullhorn"></span>
+                    <label class="homemenu_text">
+                        石大头</label>
+                </a></li>
+                <li><a href="http://113986.vshop.weimob.com?wechatid=fromUsername&amp;v=d197c365d4fb80ad5b6956ffe151d601&amp;wxref=mp.weixin.qq.com">
+                    <span class="icon-user-md"></span>
+                    <label class="homemenu_text">
+                        石小头</label>
+                </a></li>
+                <li><a href="/Webestate/Index?pid=113986&amp;wechatid=fromUsername&amp;wxref=mp.weixin.qq.com">
+                    <span class="icon-globe "></span>
+                    <label class="homemenu_text">
+                        石头3</label>
+                </a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--
+分享前控制
+-->
+    <script type="text/javascript">
+
+        window.shareData = {
+            "imgUrl": "http://img.weimob.com/static/8c/e0/6d/image/20140417/20140417211936_78911.jpg",
+            "timeLineLink": "http://www.weimob.com/weisite/home?pid=113986&bid=232483&wechatid=fromUsername&wxref=mp.weixin.qq.com",
+            "sendFriendLink": "http://www.weimob.com/weisite/home?pid=113986&bid=232483&wechatid=fromUsername&wxref=mp.weixin.qq.com",
+            "weiboLink": "http://www.weimob.com/weisite/home?pid=113986&bid=232483&wechatid=fromUsername&wxref=mp.weixin.qq.com",
+            "tTitle": "旅游在线",
+            "tContent": "123",
+            "fTitle": "旅游在线",
+            "fContent": "123",
+            "wContent": "123"
+        };
+    </script>
+    <footer style="overflow: visible;">
+        <div class="weimob-copyright" style="padding-bottom: 50px;">
+            <a href="/weisite/home?pid=113986&amp;bid=232483&amp;wechatid=fromUsername&amp;wxref=mp.weixin.qq.com">
+                © 旅游在线</a>
+        </div>
+    </footer>
+    <div mark="stat_code" style="width: 0px; height: 0px; display: none;">
+    </div>
+    <script type="text/javascript">
+        (function () {
+            var wtj = document.createElement('script'); wtj.type = 'text/javascript'; wtj.async = true;
+            wtj.src = 'http://tj.weimob.com/wtj.js?url=' + encodeURIComponent(location.href);
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wtj, s);
+        })();
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fd80741dd59de91e1846b2add2c0ad2a2' type='text/javascript'%3E%3C/script%3E"));
+        function weimobAfterShare(shareFromWechatId, sendFriendLink, shareToPlatform) {
+            var wmShare = document.createElement('script'); wmShare.type = 'text/javascript'; wmShare.async = true;
+            wmShare.src = 'http://tj.weimob.com/api-share.js?fromWechatId=' + shareFromWechatId + '&shareToPlatform=';
+            wmShare.src += shareToPlatform + '&pid=113986&sendFriendLink=' + encodeURIComponent(sendFriendLink);
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wmShare, s);
+        }
+
+        /**
+        * 默认分享出去的数据
+        *
+        */
+        function getShareImageUrl() {
+            var share_imgurl = "";
+            if ("" == share_imgurl) {
+                var shareImgObj = document.getElementsByClassName("shareImgUrl")[0];
+                if ('undefined' != typeof (shareImgObj)) {
+                    share_imgurl = shareImgObj.src;
+                }
+            }
+            return window.shareData.imgUrl || share_imgurl;
+        }
+
+        window.shareData = window.shareData || {
+            "timeLineLink": "http://www.weimob.com/Weisite/Home?pid=113986&bid=232483&wechatid=fromUsername",
+            "sendFriendLink": "http://www.weimob.com/Weisite/Home?pid=113986&bid=232483&wechatid=fromUsername",
+            "weiboLink": "http://www.weimob.com/Weisite/Home?pid=113986&bid=232483&wechatid=fromUsername",
+            "tTitle": document.title,
+            "tContent": document.title,
+            "fTitle": document.title,
+            "fContent": document.title,
+            "wContent": document.title
+        }
+        document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+            // 发送给好友
+            WeixinJSBridge.on('menu:share:appmessage', function (argv) {
+                WeixinJSBridge.invoke('sendAppMessage', {
+                    "img_url": getShareImageUrl(),
+                    "img_width": "640",
+                    "img_height": "640",
+                    "link": window.shareData.sendFriendLink,
+                    "desc": window.shareData.fContent,
+                    "title": window.shareData.fTitle
+                }, function (res) {
+                    weimobAfterShare("", window.shareData.sendFriendLink, 'appmessage');
+                    _report('send_msg', res.err_msg);
+                })
+            });
+
+            // 分享到朋友圈
+            WeixinJSBridge.on('menu:share:timeline', function (argv) {
+                WeixinJSBridge.invoke('shareTimeline', {
+                    "img_url": getShareImageUrl(),
+                    "img_width": "640",
+                    "img_height": "640",
+                    "link": window.shareData.timeLineLink,
+                    "desc": window.shareData.tContent,
+                    "title": window.shareData.tTitle
+                }, function (res) {
+                    weimobAfterShare("", window.shareData.timeLineLink, 'timeline');
+                    _report('timeline', res.err_msg);
+                });
+            });
+
+            // 分享到微博
+            WeixinJSBridge.on('menu:share:weibo', function (argv) {
+                WeixinJSBridge.invoke('shareWeibo', {
+                    "content": window.shareData.wContent,
+                    "url": window.shareData.weiboLink
+                }, function (res) {
+                    weimobAfterShare("", window.shareData.weiboLink, 'weibo');
+                    _report('weibo', res.err_msg);
+                });
+            });
+        }, false);
+    </script>
+    <script src=" http://hm.baidu.com/h.js?d80741dd59de91e1846b2add2c0ad2a2" type="text/javascript"></script>
+    <script type="text/javascript" src="http://kf.weimob.com/js/ChatFloat.js"></script>
+    <script type="text/javascript">
+        var str_domain = location.href.split('/', 4)[2];
+        var boolIsTest = true;
+        if (str_domain == 'www.weimob.com') {
+            boolIsTest = false;
+        }
+        new ChatFloat({
+            AId: '113986',
+            openid: "",
+            top: 150,
+            right: 0,
+            IsTest: boolIsTest
+        });
+    </script>
+</body>
+</html>
