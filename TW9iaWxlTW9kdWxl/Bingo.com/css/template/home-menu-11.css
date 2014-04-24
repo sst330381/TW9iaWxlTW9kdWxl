@@ -37,27 +37,27 @@
 	font-size:20px;
 }
 .nav_10 li>a>span.back{
-	background:url(../../img/template/lib/v83_icon.png);
+	background:url(/img/template/lib/v83_icon.png);
 	-webkit-background-size: auto 25px;
 	background-position:-16px 0px;
 }
 .nav_10 li>a>span.phone{
-	background:url(../../img/template/lib/v83_icon.png);
+	background:url(/img/template/lib/v83_icon.png);
 	-webkit-background-size: auto 25px;
 	background-position:-69px 0px
 }
 .nav_10 li>a>span.address{
-	background:url(../../img/template/lib/v83_icon.png);
+	background:url(/img/template/lib/v83_icon.png);
 	-webkit-background-size: auto 25px;
 	background-position:-121px 0px
 }
 .nav_10 li>a>span.home{
-	background:url(../../img/template/lib/v83_icon.png);
+	background:url(/img/template/lib/v83_icon.png);
 	-webkit-background-size: auto 25px;
 	background-position:-174px 0px
 }
 .nav_10 li>a>span.share{
-	background:url(../../img/template/lib/v83_icon.png);
+	background:url(/img/template/lib/v83_icon.png);
 	-webkit-background-size: auto 25px;
 	background-position:-227px 0px
 }
