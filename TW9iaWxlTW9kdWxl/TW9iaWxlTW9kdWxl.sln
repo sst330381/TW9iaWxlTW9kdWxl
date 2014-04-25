@@ -1,27 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "dossier", "dossier\", "{F5CDB49C-87F3-4D79-8BCA-E08CAB5CFB46}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/dossier"
-		Debug.AspNetCompiler.PhysicalPath = "dossier\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\dossier\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/dossier"
-		Release.AspNetCompiler.PhysicalPath = "dossier\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\dossier\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "12650"
-		DefaultWebSiteLanguage = "Visual C#"
-	EndProjectSection
-EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "restaurant", "restaurant\", "{11F5BE46-2429-4BA4-8423-000A763EAC13}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
@@ -139,10 +118,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F5CDB49C-87F3-4D79-8BCA-E08CAB5CFB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5CDB49C-87F3-4D79-8BCA-E08CAB5CFB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5CDB49C-87F3-4D79-8BCA-E08CAB5CFB46}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5CDB49C-87F3-4D79-8BCA-E08CAB5CFB46}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{11F5BE46-2429-4BA4-8423-000A763EAC13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{11F5BE46-2429-4BA4-8423-000A763EAC13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11F5BE46-2429-4BA4-8423-000A763EAC13}.Release|Any CPU.ActiveCfg = Debug|Any CPU
