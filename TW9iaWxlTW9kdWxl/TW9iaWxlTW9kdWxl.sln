@@ -39,6 +39,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "restaurant", "restaurant\",
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "37352"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
