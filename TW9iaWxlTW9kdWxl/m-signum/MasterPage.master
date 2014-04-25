@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/icontwo.png">
+    <link rel="apple-touch-startup-image" href="/images/startup.png">
+    <title>Signum Mobile </title>
+    <link href="/style/style.css" rel="stylesheet" type="text/css">
+    <link href="/style/type.css" rel="stylesheet" type="text/css">
+    <link href="/style/buttons.css" rel="stylesheet" type="text/css">
+    <link href="/style/slider.css" rel="stylesheet" type="text/css">
+    <link href="/style/photoswipe.css" rel="stylesheet" type="text/css">
+    <link href="/style/flexslider.css" rel="stylesheet" type="text/css">
+    <!-- Do not move the bellow script to custom.js! It must stay here to load properly! -->
+    <script type="text/javascript" src="/script/jquery.js"></script>
+    <style type="text/css"></style>
+    <script type="text/javascript" src="/script/swipe.js"></script>
+    <script type="text/javascript" src="/script/contact.js"></script>
+    <script type="text/javascript" src="/script/jquery.easing.js"></script>
+    <script type="text/javascript" src="/script/klass.min.js"></script>
+    <script type="text/javascript" src="/script/photoswipe.js"></script>
+    <script type="text/javascript" src="/script/custom.js"></script>
+    <script type="text/javascript">
+        function loadImages() {
+            if (document.getElementById) {  // DOM3 = IE5, NS6
+                document.getElementById('hidepage').style.visibility = 'hidden';
+            } else {
+                if (document.layers) {  // Netscape 4
+                    document.hidepage.visibility = 'hidden';
+                } else {  // IE 4
+                    document.all.hidepage.style.visibility = 'hidden';
+                }
+            }
+        }
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="width:480px;margin:0 auto;" onload="loadImages()">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

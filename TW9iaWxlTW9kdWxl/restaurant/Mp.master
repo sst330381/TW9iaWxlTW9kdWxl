@@ -28,7 +28,7 @@
             <ul style="display: none;">
                 <li><a href="Aboutus.aspx">关于我们</a></li>
                 <li><a href="Menuprices.aspx">菜单 &amp; 价格</a></li>
-                <li><a href="Gallery.aspx">Gallery</a></li>
+                <%--<li><a href="Gallery.aspx">Gallery</a></li>--%>
                 <li><a href="Userinfo.aspx">用户信息</a></li>
                 <li><a href="Contacts.aspx">地图 &amp; 联系我们</a></li>
                 <li><a href="News.aspx">最新资讯</a></li>

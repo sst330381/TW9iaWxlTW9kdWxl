@@ -60,7 +60,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "restaurant", "restaurant\",
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "37352"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -110,6 +109,46 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary", "CommonLibr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBUtility", "DBUtility\DBUtility.csproj", "{2E0130AF-E5B4-4353-AC5B-6801DC38F8E2}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-signum", "m-signum\", "{17A57455-C3F8-4F6A-B28B-645DA7020BA0}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/m-signum"
+		Debug.AspNetCompiler.PhysicalPath = "m-signum\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\m-signum\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/m-signum"
+		Release.AspNetCompiler.PhysicalPath = "m-signum\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\m-signum\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-breathe", "m-breathe\", "{6A249B66-3865-489C-9388-758C83EAAB74}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/m-breathe"
+		Debug.AspNetCompiler.PhysicalPath = "m-breathe\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\m-breathe\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/m-breathe"
+		Release.AspNetCompiler.PhysicalPath = "m-breathe\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\m-breathe\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -148,6 +187,14 @@ Global
 		{2E0130AF-E5B4-4353-AC5B-6801DC38F8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E0130AF-E5B4-4353-AC5B-6801DC38F8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E0130AF-E5B4-4353-AC5B-6801DC38F8E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A57455-C3F8-4F6A-B28B-645DA7020BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A57455-C3F8-4F6A-B28B-645DA7020BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A57455-C3F8-4F6A-B28B-645DA7020BA0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A57455-C3F8-4F6A-B28B-645DA7020BA0}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{6A249B66-3865-489C-9388-758C83EAAB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A249B66-3865-489C-9388-758C83EAAB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A249B66-3865-489C-9388-758C83EAAB74}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A249B66-3865-489C-9388-758C83EAAB74}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
