@@ -1,7 +1,26 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="contact.aspx.cs" Inherits="contact" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
+    CodeFile="contact.aspx.cs" Inherits="contact" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div id="main">
+        <!-- Main content area -->
+        <h2>
+            Contact us</h2>
+        <p>
+            AxiaMobile comes with <b>full working PHP contact form</b> with simple one-click
+            set-up.</p>
+        <p>
+            <img class="bordered_picture fullwidth" src="http://maps.googleapis.com/maps/api/staticmap?center=-4,30&amp;zoom=11&amp;size=1600x1200&amp;sensor=true"></p>
+        <form id="form" method="post" action="contact.php">
+        <input type="text" required="required" name="name" value="Your name..." onclick="this.value=''"
+            onblur="this.value='Your name...'">
+        <input type="text" required="required" value="Your email..." name="email" onclick="this.value=''"
+            onblur="this.value='Your email...'">
+        <textarea cols="10" required="required" rows="10" name="message" onclick="this.value=''"
+            onblur="this.value='Your message...'">Your message...</textarea>
+        <input type="submit" class="button FancyBlue" value="Send message">
+        </form>
+    </div>
 </asp:Content>
-

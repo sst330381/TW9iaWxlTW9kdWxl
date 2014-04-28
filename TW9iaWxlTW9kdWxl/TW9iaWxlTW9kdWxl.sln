@@ -18,7 +18,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "restaurant", "restaurant\",
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "37352"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -125,6 +124,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-dossier", "m-dossier\", "
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3434"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -145,6 +145,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-dotmobi", "m-dotmobi\", "
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3435"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -312,7 +313,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-axia", "m-axia\", "{D9742
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "47558"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
