@@ -4,6 +4,14 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="content-section">
+        <h1 class="left-text">
+            TYPOGRAPHY</h1>
+        <em class="left-text">All the awesome typography features!</em>
+        <div class="overlay">
+        </div>
+        <img class="responsive-image" src="/images/general-nature/4w.jpg" alt="img">
+    </div>
     <div class="content">
         <div class="container no-bottom">
             <h3>

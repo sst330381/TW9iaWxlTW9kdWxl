@@ -55,22 +55,22 @@
         <div class="navigation">
             <div class="navigation-wrapper">
                 <div class="nav-item">
-                    <a href="index.aspx" class="landing-icon">Homepage<em class="unselected-item"></em></a>
+                    <a href="/homepage.aspx" class="landing-icon">Homepage<em class="unselected-item"></em></a>
                 </div>
                 <div class="nav-item">
-                    <a href="homepage.html" class="homepage-icon">Welcome<em class="unselected-item"></em></a>
+                    <a href="/homepage.aspx" class="homepage-icon">Welcome<em class="unselected-item"></em></a>
                 </div>
                 <div class="nav-item">
                     <a href="#" class="submenu-item features-icon">Features<em class="dropdown-item active-dropdown"></em></a>
                     <div class="submenu submenu-active">
-                        <a href="type.aspx">Typography <em class="selected-item"></em></a><a href="jquery.html">
+                        <a href="/type.aspx">Typography <em class="selected-item"></em></a><a href="/jquery.html">
                             jQuery <em class="unselected-item"></em></a>
                     </div>
                 </div>
                 <div class="nav-item">
                     <a href="#" class="submenu-item camera-icon">Gallery<em class="dropdown-item"></em></a>
                     <div class="submenu">
-                        <a href="tile-gallery.html">Tile Gallery <em class="unselected-item"></em></a><a
+                        <a href="/gallery.aspx">Tile Gallery <em class="unselected-item"></em></a><a
                             href="thumbnail-gallery.html">Thumbnail Gallery <em class="unselected-item"></em>
                         </a>
                     </div>
@@ -91,14 +91,6 @@
             </div>
         </div>
         <div class="page-header-clear">
-        </div>
-        <div class="content-section">
-            <h1 class="left-text">
-                TYPOGRAPHY</h1>
-            <em class="left-text">All the awesome typography features!</em>
-            <div class="overlay">
-            </div>
-            <img class="responsive-image" src="/images/general-nature/4w.jpg" alt="img">
         </div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>

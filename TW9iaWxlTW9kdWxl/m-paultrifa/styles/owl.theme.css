@@ -139,7 +139,7 @@ and (orientation : portrait) {
 	height:50px;
 	text-align:center;
 	font-size:18px;
-	font-family:'Dosis', sans-serif;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Dosis', sans-serif;
 	font-weight:400;
 	z-index:999999;
 	margin-top:-46%;
@@ -161,7 +161,7 @@ and (orientation : portrait) {
 
 .title-slider-caption strong{
 	font-weight:normal;
-	font-family:'Dosis', sans-serif;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Dosis', sans-serif;
 	font-size:14px;
 	font-weight:400px;
 	display:block;
@@ -175,7 +175,7 @@ and (orientation : portrait) {
 .blog-slider-caption strong{
 	display:block;
 	font-size:14px;
-	font-family:'Lato', sans-serif;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Lato', sans-serif;
 	font-weight:800;
 	color:#1f1f1f;
 	padding-bottom:5px;
@@ -306,7 +306,7 @@ and (orientation : portrait) {
 
 .homepage-slider-caption h3{
 	color:#FFFFFF;
-	font-family:'Lato', sans-serif;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Lato', sans-serif;
 	font-size:14px;
 	text-transform:uppercase;
 	padding-left:20px;

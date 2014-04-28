@@ -171,7 +171,7 @@ ol > li:last-child, ul > li:last-child {
 
 
 body{
-	font-family:'Open Sans', sans-serif;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Open Sans', sans-serif;
 	color:#666;
 	font-size:12px;
 	line-height:20px;
@@ -217,7 +217,7 @@ h5{
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-family:'Lato', sans-serif;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Lato', sans-serif;
 	color:#1f1f1f;	
 }
 
@@ -593,7 +593,7 @@ a{
 
 .wline{
 	font-size:11px;
-	font-family:"Courier New", Courier, monospace!important;
+	font-family:'\5FAE\8F6F\96C5\9ED1',"Courier New", Courier, monospace!important;
 	display:block;
 	background-color:#FFFFFF;
 	padding-left:10px;
@@ -608,7 +608,7 @@ a{
 
 .gline{
 	font-size:11px;
-	font-family:"Courier New", Courier, monospace!important;
+	font-family:'\5FAE\8F6F\96C5\9ED1',"Courier New", Courier, monospace!important;
 	border-top:solid 1px rgba(0,0,0,0.1);
 	border-bottom:solid 1px rgba(0,0,0,0.1);
 	display:block;
@@ -810,12 +810,12 @@ a{
 }
 
 .table-title{
-	font-family:'Dosis', sans-serif;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Dosis', sans-serif;
 	font-size:12px;
 }
 
 .table-sub-title{
-	font-family:'Dosis', sans-serif;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Dosis', sans-serif;
 	font-weight:bold;
 	font-size:12px;
 }
@@ -1210,7 +1210,7 @@ table tr:hover td{
 }
 
 .big-notification h3{
-	font-family:'Dosis', sans-serif;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Dosis', sans-serif;
 	font-weight:400;
 	color:#FFFFFF;
 	margin-bottom:5px;
@@ -1221,7 +1221,7 @@ table tr:hover td{
 }
 
 .big-notification h4{
-	font-family:'Dosis', sans-serif;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Dosis', sans-serif;
 	font-weight:400;
 	color:#FFFFFF;
 	margin-bottom:5px;
@@ -1790,7 +1790,7 @@ table tr:hover td{
 .recent-post p strong{
 	display:block;
 	color:#1f1f1f;
-	font-family:'Lato', sans-serif;
+	font-family:'\5FAE\8F6F\96C5\9ED1','Lato', sans-serif;
 	text-transform:uppercase;
 	font-size:12px;
 	font-weight:600;
