@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Axia Mobile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link type="text/css" rel="stylesheet" href="/styles/style.css">
+    <script src="/js/jquery.min.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="page">
+        <div id="menu">
+            <div>
+                <a href="/about.aspx">
+                    <img src="/images/home_buttons/agent.png" alt="About"><br>
+                    <span>About</span></a></div>
+            <div>
+                <a href="/services.aspx">
+                    <img src="/images/home_buttons/briefcase.png" alt="Services"><br>
+                    <span>Services</span></a></div>
+            <div>
+                <a href="/blog.aspx">
+                    <img src="/images/home_buttons/chat-.png" alt="Blog"><br>
+                    <span>Blog</span></a></div>
+            <div>
+                <a href="/portfolio.aspx">
+                    <img src="/images/home_buttons/addressbook.png" alt="Portfolio"><br>
+                    <span>Portfolio</span></a></div>
+            <div>
+                <a href="/contact.aspx">
+                    <img src="/images/home_buttons/email.png" alt="Contact"><br>
+                    <span>Contact</span></a></div>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <div id="footer">
+            <!-- Footer -->
+            <a href="/">
+                <button>
+                    <img src="images/home.png" alt="Home">Home</button></a>
+            <button onclick="$('html, body').animate({scrollTop: '0'}, 700);">
+                Top</button>
+        </div>
+    </div>
+</body>
+</html>
