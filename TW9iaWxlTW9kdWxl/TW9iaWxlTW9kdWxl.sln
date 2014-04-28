@@ -18,6 +18,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "restaurant", "restaurant\",
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "21416"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -38,6 +39,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Bingo.com", "Bingo.com\", "
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "21417"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -84,6 +86,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-signum", "m-signum\", "{1
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "21419"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -104,6 +107,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-breathe", "m-breathe\", "
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "21420"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -313,6 +317,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-axia", "m-axia\", "{D9742
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "21430"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -333,6 +338,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-woody", "m-woody\", "{649
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "21431"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -353,6 +359,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-paultrifa", "m-paultrifa\
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "21432"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
