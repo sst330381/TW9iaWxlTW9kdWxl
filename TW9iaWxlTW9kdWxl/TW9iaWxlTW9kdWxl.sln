@@ -368,6 +368,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dbfile", "dbfile", "{F61902
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{512EA0C6-9741-40C9-BCE1-446B41D6D7F3}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "simulate-wxlogin", "simulate-wxlogin\", "{0FD9EB76-06A9-457E-9ED5-FD628484740D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/simulate-wxlogin"
+		Debug.AspNetCompiler.PhysicalPath = "simulate-wxlogin\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\simulate-wxlogin\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/simulate-wxlogin"
+		Release.AspNetCompiler.PhysicalPath = "simulate-wxlogin\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\simulate-wxlogin\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "7180"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -466,6 +487,10 @@ Global
 		{512EA0C6-9741-40C9-BCE1-446B41D6D7F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{512EA0C6-9741-40C9-BCE1-446B41D6D7F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{512EA0C6-9741-40C9-BCE1-446B41D6D7F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FD9EB76-06A9-457E-9ED5-FD628484740D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD9EB76-06A9-457E-9ED5-FD628484740D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD9EB76-06A9-457E-9ED5-FD628484740D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD9EB76-06A9-457E-9ED5-FD628484740D}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
