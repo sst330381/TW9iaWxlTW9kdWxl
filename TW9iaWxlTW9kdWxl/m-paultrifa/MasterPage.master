@@ -70,9 +70,7 @@
                 <div class="nav-item">
                     <a href="#" class="submenu-item camera-icon">Gallery<em class="dropdown-item"></em></a>
                     <div class="submenu">
-                        <a href="/gallery.aspx">Tile Gallery <em class="unselected-item"></em></a><a
-                            href="thumbnail-gallery.html">Thumbnail Gallery <em class="unselected-item"></em>
-                        </a>
+                        <a href="/gallery.aspx">Tile Gallery <em class="unselected-item"></em></a>
                     </div>
                 </div>
                 <div class="nav-item">

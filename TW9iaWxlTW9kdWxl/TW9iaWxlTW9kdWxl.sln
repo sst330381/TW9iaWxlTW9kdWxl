@@ -18,7 +18,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "restaurant", "restaurant\",
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "21416"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -39,7 +38,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Bingo.com", "Bingo.com\", "
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "21417"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -86,7 +84,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-signum", "m-signum\", "{1
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "21419"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -107,7 +104,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-breathe", "m-breathe\", "
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "21420"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -317,7 +313,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-axia", "m-axia\", "{D9742
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "21430"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -338,7 +333,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-woody", "m-woody\", "{649
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "21431"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -359,9 +353,20 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-paultrifa", "m-paultrifa\
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "21432"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{79FB0CFB-0E75-490D-8792-C01685E8B8CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{512E0BD3-FB97-4F2D-A449-E8DF1E689397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{C4C95989-D66A-4C21-8400-75C19C599F89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{BD2DB15F-CC6E-4C1D-B3AA-8BDCA49F9114}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "file", "file", "{A7D16C62-FF3F-4725-975A-1C6F71D8B0B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dbfile", "dbfile", "{F61902FF-4486-4992-80EE-4A20A0737025}"
 EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
@@ -449,8 +454,23 @@ Global
 		{2CAF51C2-D291-4FF1-B7BC-2B230102F4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CAF51C2-D291-4FF1-B7BC-2B230102F4FF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{2CAF51C2-D291-4FF1-B7BC-2B230102F4FF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{79FB0CFB-0E75-490D-8792-C01685E8B8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FB0CFB-0E75-490D-8792-C01685E8B8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FB0CFB-0E75-490D-8792-C01685E8B8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FB0CFB-0E75-490D-8792-C01685E8B8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{512E0BD3-FB97-4F2D-A449-E8DF1E689397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{512E0BD3-FB97-4F2D-A449-E8DF1E689397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{512E0BD3-FB97-4F2D-A449-E8DF1E689397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{512E0BD3-FB97-4F2D-A449-E8DF1E689397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C95989-D66A-4C21-8400-75C19C599F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C95989-D66A-4C21-8400-75C19C599F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C95989-D66A-4C21-8400-75C19C599F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C95989-D66A-4C21-8400-75C19C599F89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F61902FF-4486-4992-80EE-4A20A0737025} = {A7D16C62-FF3F-4725-975A-1C6F71D8B0B6}
 	EndGlobalSection
 EndGlobal
