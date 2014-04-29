@@ -8,11 +8,8 @@ using System.Web;
 /// </summary>
 public class WeiXinRetInfo
 {
-    public base_resp base_resp { get; set; }
-}
-
-public class base_resp
-{
-    public string ret { get; set; }
-    public string err_msg { get; set; }
+    public string Ret { get; set; }
+    public string ErrMsg { get; set; }
+    public string ShowVerifyCode { get; set; }
+    public string ErrCode { get; set; }
 }

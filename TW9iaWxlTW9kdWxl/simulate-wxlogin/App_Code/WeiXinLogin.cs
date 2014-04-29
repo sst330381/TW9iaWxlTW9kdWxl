@@ -47,7 +47,7 @@ public class WeiXinLogin
         bool result = false;
         string password = GetMd5Str32(pass).ToUpper(); 
         string padata = "username=" + name + "&pwd=" + password + "&imgcode=&f=json";
-        string url = "http://mp.weixin.qq.com/cgi-bin/login?lang=zh_CN ";//请求登录的URL
+        string url = "http://mp.weixin.qq.com/cgi-bin/login?lang=zh_CN";//请求登录的URL
         try
         {
             CookieContainer cc = new CookieContainer();//接收缓存
@@ -68,9 +68,9 @@ public class WeiXinLogin
             //此处用到了newtonsoft来序列化
             WeiXinRetInfo retinfo = Newtonsoft.Json.JsonConvert.DeserializeObject<WeiXinRetInfo>(text2);
             string token = string.Empty;
-            if (retinfo.base_resp.err_msg.Length > 0)
+            if (retinfo.ErrMsg.Length > 0)
             {
-                token = retinfo.base_resp.err_msg.Split(new char[] { '&' })[2].Split(new char[] { '=' })[1].ToString();//取得令牌
+                token = retinfo.ErrMsg.Split(new char[] { '&' })[2].Split(new char[] { '=' })[1].ToString();//取得令牌
                 LoginInfo.LoginCookie = cc;
                 LoginInfo.CreateDate = DateTime.Now;
                 LoginInfo.Token = token;
