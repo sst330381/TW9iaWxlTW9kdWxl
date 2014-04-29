@@ -34,7 +34,7 @@
 	width:25px;
 	height:25px;
 	margin:auto;
-	background:url(../../img/template/lib/nav_8_icon.png) no-repeat -13px -13px;
+	background:url(/img/template/lib/nav_8_icon.png) no-repeat -13px -13px;
 	-webkit-background-size:100px auto;
 	/*background-color:red;*/
 }

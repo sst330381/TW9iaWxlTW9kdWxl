@@ -25,9 +25,9 @@ h1,h2,h3,h4,h5{font-weight:normal;font-size:100%}
 .right{float:right}
 body{margin:0 auto;background:#f7f7f7;color:black;font-size:14px;font-family:"Microsoft Yahei",Verdana,Arial,Helvetica,sans-serif;}
 input,textarea,select,option,td,th{font-size:14px;font-family:"Microsoft Yahei",tahoma,Arial,Helvetica,sans-serif}
-.nav{position:fixed;top:0;left:0;z-index:9999;margin-bottom:0;width:100%;height:49px;background:url("http://stc.weimob.com/img/www/index1/top-bg.jpg") repeat-x 0 0;-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5);-moz-box-shadow:0 1px 2px rgba(0,0,0,0.5);box-shadow:0 1px 2px rgba(0,0,0,0.5);_position:absolute}
+.nav{position:fixed;top:0;left:0;z-index:9999;margin-bottom:0;width:100%;height:49px;background:url("/img/www/index1/top-bg.jpg") repeat-x 0 0;-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.5);-moz-box-shadow:0 1px 2px rgba(0,0,0,0.5);box-shadow:0 1px 2px rgba(0,0,0,0.5);_position:absolute}
 .nav .nav-content{position:relative;margin:0 auto;width:1000px}
-.nav h1{width:200px;height:50px;background:url("http://stc.weimob.com/img/www/index1/weimob-logo.png") no-repeat 0 0;text-indent:-9999em;_filter:progid:dximagetransform.microsoft.AlphaImageLoader(enabled=true,src='../../../img/www/index1/weimob-logo.png');_background:0;_position:absolute;_top:10px;_left:0;_margin-top:0}
+.nav h1{width:200px;height:50px;background:url("/img/www/index1/weimob-logo.png") no-repeat 0 0;text-indent:-9999em;_filter:progid:dximagetransform.microsoft.AlphaImageLoader(enabled=true,src='../../../img/www/index1/weimob-logo.png');_background:0;_position:absolute;_top:10px;_left:0;_margin-top:0}
 .nav h1 a{ display:block;width:200px;height:50px;}
 .city{width:163px;height:45px;line-height:50px}
 .city h2{float:left;padding-right:15px;height:21px;color:#FFF;font-size:14px}
@@ -43,7 +43,7 @@ input,textarea,select,option,td,th{font-size:14px;font-family:"Microsoft Yahei",
 .nav .line-li .account .btn0 {display: inline-block;margin:0 0 0 8px;font-size: 14px;padding: 9px 20px; text-decoration:none;}
 .nav_menu_li_1:hover a._hover{display:inline-block;background-color: #0da4f9;color: #fff;border: 0 none;-webkit-appearance: none;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
 .nav_menu_li_1 i{
-	background-image: url("http://stc.weimob.com/img/www/index1/sub-menu.png");
+	background-image: url("/img/www/index1/sub-menu.png");
 	width: 13px;
 	height: 18px;
 	background-repeat: no-repeat;
@@ -79,10 +79,10 @@ input,textarea,select,option,td,th{font-size:14px;font-family:"Microsoft Yahei",
 .header{position:relative;padding-top:50px;width:100%;height:500px}
 .header .header-content{margin:0 auto;padding-top:60px;width:1000px}
 .full-height{margin-top:60px}
-.line{height:1px;background:url("http://stc.weimob.com/img/www/index1/line.png") no-repeat center 0}
+.line{height:1px;background:url("/img/www/index1/line.png") no-repeat center 0}
 .content{margin:0 auto;width:1000px;_background:0}
 .feature-content{margin:0 auto;width:1000px}
-.feature-content .icon{background:url("http://stc.weimob.com/img/www/index1/icon.png?2014-2-25") no-repeat center 17px;_background:url("http://stc.weimob.com/img/www/index1/icon.gif?2014-2-21") no-repeat center 17px}
+.feature-content .icon{background:url("/img/www/index1/icon.png?2014-2-25") no-repeat center 17px;_background:url("/img/www/index1/icon.gif?2014-2-21") no-repeat center 17px}
 .feature-content a{color:#000;text-decoration:none}
 .feature-content .website{background-position:0 0}
 .feature-content .active h3{color:#0c92dd;}
@@ -143,35 +143,35 @@ input,textarea,select,option,td,th{font-size:14px;font-family:"Microsoft Yahei",
 .feature-content .active .community{background-position:-1300px -61px}
 
 .feature-content dd{float:left;padding:30px 10px 0;width:180px;height:176px}
-.feature-content dd.vborder{background:url("http://stc.weimob.com/img/www/index1/v_spliter.jpg") no-repeat right center}
+.feature-content dd.vborder{background:url("/img/www/index1/v_spliter.jpg") no-repeat right center}
 .feature-content dd .fimg{margin:0 auto;margin-bottom:15px;width:50px;height:50px}
 .feature-content dd h3{margin-bottom:10px;text-align:center;font-size:18px; font-weight:normal;}
 .feature-content dd p{color:#777;text-align:center;line-height:24px}
 .footer{padding:5px 0;width:100%;background:#41475f;font-size:14px;line-height:22px;_line-height:28px}
-.footer .footer-content{overflow:hidden;margin:0 auto;width:1000px;background:url("http://stc.weimob.com/img/www/index1/foot-logo.png") 30px 30px no-repeat;color:#919292}
+.footer .footer-content{overflow:hidden;margin:0 auto;width:1000px;background:url("/img/www/index1/foot-logo.png") 30px 30px no-repeat;color:#919292}
 .footer .foot-menu{margin-left:300px;width:700px}
 .footer .foot-menu p{color:#FFF;font-size:13px;line-height:26px}
 .footer .foot-menu p a{color:#FFF;text-decoration:none}
 .footer .copyright{margin-top:10px;padding-left:80px;color:#7b7b7b;font-size:12px}
-#notice-panel{position:relative;margin-top:20px;padding:0;width:100%;height:36px;background:url("http://stc.weimob.com/img/www/index1/post-bg.png") no-repeat;text-align:center;font-size:16px}
-#notice-panel .notice_icon{float:left;margin:5px 15px 0 0;width:28px;height:24px;background:url("http://stc.weimob.com/img/www/index1/weimob.png") no-repeat scroll -1px -246px;*position:absolute;*left:50px;*bottom:5px}
+#notice-panel{position:relative;margin-top:20px;padding:0;width:100%;height:36px;background:url("/img/www/index1/post-bg.png") no-repeat;text-align:center;font-size:16px}
+#notice-panel .notice_icon{float:left;margin:5px 15px 0 0;width:28px;height:24px;background:url("/img/www/index1/weimob.png") no-repeat scroll -1px -246px;*position:absolute;*left:50px;*bottom:5px}
 #notice-panel h1{display:inline-block;color:#484848;text-align:center;line-height:36px;_zoom:1;*display:inline}
 #notice-panel .notice{display:inline-block;_zoom:1;*display:inline}
 #notice-panel .notice a{color:#484848;text-decoration:none}
 #notice-panel .notice a:hover,#notice-panel .notice a:active{color:#484848;text-decoration:underline}
 #notice-panel .notice label{padding-left:5px;color:#15abf3;font-size:16px}
 #notice-panel .notice label .date{float:right;margin-left:10px;color:#AAA;font-size:16px;*margin-top:-25px;_margin-top:-25px}
-.erwei{position:fixed;bottom:8px;left:8px;z-index:999;padding:35px 5px 0 5px;border:1px solid #d1d1d1;background:white url("http://stc.weimob.com/img/www/index1/erwei_small.png") no-repeat scroll center 5px;color:#56a91d;cursor:pointer}
-.erwei_big{position:absolute;bottom:-2px;left:75px;display:none;padding-top:258px;width:258px;border:1px solid #d1d1d1;background:white url("http://stc.weimob.com/img/www/index1/erwei_big.jpg?2013-12") no-repeat scroll center 0;cursor:default}
+.erwei{position:fixed;bottom:8px;left:8px;z-index:999;padding:35px 5px 0 5px;border:1px solid #d1d1d1;background:white url("/img/www/index1/erwei_small.png") no-repeat scroll center 5px;color:#56a91d;cursor:pointer}
+.erwei_big{position:absolute;bottom:-2px;left:75px;display:none;padding-top:258px;width:258px;border:1px solid #d1d1d1;background:white url("/img/www/index1/erwei_big.jpg?2013-12") no-repeat scroll center 0;cursor:default}
 .hudongzhushou{display:block;padding-bottom:5px}
 .erwei_big p{padding:0 17px 10px 17px;color:#969696}
-.banner .pre,.banner .next,.banner .frame .changing-over,.banner .frame .changing-over a,.banner .frame .changing-over a.now,.banner .text .start{background:url("http://stc.weimob.com/img/www/index1/weimob.png") no-repeat}
+.banner .pre,.banner .next,.banner .frame .changing-over,.banner .frame .changing-over a,.banner .frame .changing-over a.now,.banner .text .start{background:url("/img/www/index1/weimob.png") no-repeat}
 .changing-over{background-position:center center}
 .hd-c{
 position:relative;
 overflow:hidden;
 width:100%;
-background-image:url("http://stc.weimob.com/img/www/index1/banner.jpg");
+background-image:url("/img/www/index1/banner.jpg");
 background-size:100% 100%;
 -moz-background-size:100% 100%;
 -o-background-size:100% 100%;
@@ -212,12 +212,12 @@ background-size:100% 100%;
 .caroufredsel_wrapper{width:960px!important;}
 .list_carousel ul {margin: 0;padding: 0;list-style: none;display: block;}
 .list_carousel li {font-size: 40px;color: #999;text-align: center;width: 240px;height:280px;padding: 0;display: block;float: left;}
-.list_carousel li a{display:block;width:160px;margin:auto;position:relative;box-shadow:0 10px 5px rgba(0,0,0,.3); border-top:1px solid #ececec; border-radius:5px 5px 0 0; _background:url("http://stc.weimob.com/img/www/index1/case-bg.png") 0 bottom no-repeat;}
+.list_carousel li a{display:block;width:160px;margin:auto;position:relative;box-shadow:0 10px 5px rgba(0,0,0,.3); border-top:1px solid #ececec; border-radius:5px 5px 0 0; _background:url("/img/www/index1/case-bg.png") 0 bottom no-repeat;}
 .list_carousel li a:after{position:absolute;bottom:-29px;left:0;overflow:hidden;background:#f7f7f7;width:100%;height:15px;content:'';border-radius:50%;box-shadow:0 -10px 3px #f7f7f7;}
 .list_carousel li img{width:150px;height:230px;margin:5px auto; display:inline;}
 .list_carousel.responsive {width: auto;margin-left: 0;}
 .clearfix {float: none;clear: both;}
-.prev, .next{display:inline-block;width:28px;height:50px;position:absolute;	top:50%;margin-top:-50px;z-index:100;background:url("http://stc.weimob.com/img/www/index1/weimob.png") no-repeat 0 center;left:-20px;}
+.prev, .next{display:inline-block;width:28px;height:50px;position:absolute;	top:50%;margin-top:-50px;z-index:100;background:url("/img/www/index1/weimob.png") no-repeat 0 center;left:-20px;}
 .prev{background-position:0 -305px;}
 .next {left:auto;right:-20px;background-position:-30px -305px;}
 
@@ -236,7 +236,7 @@ z-index:100002;}
 .login-err-panel{margin-left:-4px;color:#d70000;font-size:13px}
 .login-mod .icon-wrapper{display:inline-block;vertical-align:middle;line-height:0}
 .login-err-panel{color:#d70000;font-size:13px}
-.icon24-login{display:inline-block;vertical-align:middle;width:24px;height:24px;margin:0 auto;background:transparent url("http://stc.weimob.com/img/www/index1/icon24_login.png") no-repeat center center}
+.icon24-login{display:inline-block;vertical-align:middle;width:24px;height:24px;margin:0 auto;background:transparent url("/img/www/index1/icon24_login.png") no-repeat center center}
 .icon24-login.un{background-position:0 0}
 .icon24-login.pwd{background-position:-48px 0}
 .icon24-login.checkbox{background-position:-72px 0}
@@ -268,11 +268,11 @@ z-index:100002;}
 		display:block;
 }
 
-.Public-content{ background-image:url("http://stc.weimob.com/img/www/index1/banner.jpg"); background-repeat:repeat-y; display:block;  background-size:100% 100%;-ms-background-size:100% 100%; width:100%; margin-top:50px;}
+.Public-content{ background-image:url("/img/www/index1/banner.jpg"); background-repeat:repeat-y; display:block;  background-size:100% 100%;-ms-background-size:100% 100%; width:100%; margin-top:50px;}
 .Public{ width:980px; margin:0 auto; padding:20px 0;}
 
 .Public-h1{ font-size:26px;  text-shadow:1px 0 3px #666; color:#FFF; display:block; padding:30px 0 10px 0; text-indent:2em;}
-.Public-h2{ background:url("http://stc.weimob.com/img/www/index1/weimob-proxy.png") no-repeat; color:#FFF; width:237px; margin:0 auto; display:block; height:63px;text-shadow:1px 0 3px #666; font-size:30px; text-align:center; line-height:63px;}
+.Public-h2{ background:url("/img/www/index1/weimob-proxy.png") no-repeat; color:#FFF; width:237px; margin:0 auto; display:block; height:63px;text-shadow:1px 0 3px #666; font-size:30px; text-align:center; line-height:63px;}
 .Public-box{ background:rgba(255, 255, 255, 0.3) none repeat scroll 0 0 !important;
 filter:Alpha(opacity=30); background:#fff;height:auto; padding-bottom:20px; border-radius:5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;box-shadow:0 1px 2px #666;  -webkit-box-shadow:0 1px 2px #666;
 -moz-box-shadow:0 1px 2px #666;padding:5px; }
@@ -282,7 +282,7 @@ filter:Alpha(opacity=30); background:#fff;height:auto; padding-bottom:20px; bord
 .Proxy-news h3{ font-size:16px; line-height:28px; font-weight:bold; margin-top:20px;}
 .Proxy-news p{ line-height:22px; font-size:14px; }
 .Proxy-news a img{ display:block; width:440px; height:190px; overflow:hidden;}
-.Proxy-news a img:hover{ background:url("http://stc.weimob.com/img/www/index1/news-bg.png") no-repeat;}
+.Proxy-news a img:hover{ background:url("/img/www/index1/news-bg.png") no-repeat;}
 .public-info{  margin:10px 0; font-size:12px; text-indent:4em; color:#ccc;}
 .public-info a{ margin:0 4px; color:#ccc; text-decoration:none;}
 
@@ -344,7 +344,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .case_ewm{ display:block; margin:0 auto;}
 
 .icon_wm_case {display: inline-block; width: 80px; height: 80px;vertical-align: middle; }
-.icon_wm_case.auto{background-image:url("http://stc.weimob.com/img/www/index1/car/icon_wm_case_car.png?2014-3-6");}
+.icon_wm_case.auto{background-image:url("/img/www/index1/car/icon_wm_case_car.png?2014-3-6");}
 .icon_wm_case.car1 {background-position: 0 -80px;}
 .icon_wm_case.car2 {background-position: -80px -80px;}
 .icon_wm_case.car3 {background-position: -160px -80px;  }
@@ -360,7 +360,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.car6, .icon_wm_case:hover.car6 {background-position: -400px 0;}
 .icon_wm_case.on.car7, .icon_wm_case:hover.car7 {background-position: -480px 0;}
 
-.icon_wm_case.real{background-image:url("http://stc.weimob.com/img/www/index1/fdc/icon_wm_case_est.png?2014-3-6");}
+.icon_wm_case.real{background-image:url("/img/www/index1/fdc/icon_wm_case_est.png?2014-3-6");}
 .icon_wm_case.est1 {background-position: 0 -80px;}
 .icon_wm_case.est2 {background-position: -80px -80px;}
 .icon_wm_case.est3 {background-position: -160px -80px;  }
@@ -376,7 +376,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.est6, .icon_wm_case:hover.est6 {background-position: -400px 0;}
 .icon_wm_case.on.est7, .icon_wm_case:hover.est7 {background-position: -480px 0;}
 
-.icon_wm_case.medi{background-image:url("http://stc.weimob.com/img/www/index1/yl/icon_wm_case_yl.png?2014-3-6");}
+.icon_wm_case.medi{background-image:url("/img/www/index1/yl/icon_wm_case_yl.png?2014-3-6");}
 .icon_wm_case.med1 {background-position: 0 -80px;}
 .icon_wm_case.med2 {background-position: -80px -80px;}
 .icon_wm_case.med3 {background-position: -160px -80px;  }
@@ -392,7 +392,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.med6, .icon_wm_case:hover.med6 {background-position: -400px 0;}
 .icon_wm_case.on.med7, .icon_wm_case:hover.med7 {background-position: -480px 0;}
 
-.icon_wm_case.hotel{background-image:url("http://stc.weimob.com/img/www/index1/jd/icon_wm_case_jd.png?2014-3-6");}
+.icon_wm_case.hotel{background-image:url("/img/www/index1/jd/icon_wm_case_jd.png?2014-3-6");}
 .icon_wm_case.jd1 {background-position: 0 -80px;}
 .icon_wm_case.jd2 {background-position: -80px -80px;}
 .icon_wm_case.jd3 {background-position: -160px 0;}
@@ -408,7 +408,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.jd6, .icon_wm_case:hover.jd6 {background-position: -400px 0;}
 .icon_wm_case.on.jd7, .icon_wm_case:hover.jd7 {background-position: -480px 0;}
 
-.icon_wm_case.eat{background-image:url("http://stc.weimob.com/img/www/index1/ys/icon_wm_case_cy.png?2014-3-6");}
+.icon_wm_case.eat{background-image:url("/img/www/index1/ys/icon_wm_case_cy.png?2014-3-6");}
 .icon_wm_case.cy1 {background-position: 0 -80px;}
 .icon_wm_case.cy2 {background-position: -80px -80px;}
 .icon_wm_case.cy3 {background-position: -160px -80px;  }
@@ -424,7 +424,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.cy6, .icon_wm_case:hover.cy6 {background-position: -400px 0;}
 .icon_wm_case.on.cy7, .icon_wm_case:hover.cy7 {background-position: -480px 0;}
 
-.icon_wm_case.trip{background-image:url("http://stc.weimob.com/img/www/index1/ly/icon_wm_case_ly.png?2014-3-6");}
+.icon_wm_case.trip{background-image:url("/img/www/index1/ly/icon_wm_case_ly.png?2014-3-6");}
 .icon_wm_case.ly1 {background-position: 0 -80px;}
 .icon_wm_case.ly2 {background-position: -80px -80px;}
 .icon_wm_case.ly3 {background-position: -160px -80px;  }
@@ -440,7 +440,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.ly6, .icon_wm_case:hover.ly6 {background-position: -400px 0;}
 .icon_wm_case.on.ly7, .icon_wm_case:hover.ly7 {background-position: -480px 0;}
 
-.icon_wm_case.govt{background-image:url("http://stc.weimob.com/img/www/index1/gov/icon_wm_case_gov.png?2014-3-6");}
+.icon_wm_case.govt{background-image:url("/img/www/index1/gov/icon_wm_case_gov.png?2014-3-6");}
 .icon_wm_case.gov1 {background-position: 0 -80px;}
 .icon_wm_case.gov2 {background-position: -80px -80px;}
 .icon_wm_case.gov3 {background-position: -160px -80px;  }
@@ -456,7 +456,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.gov6, .icon_wm_case:hover.gov6 {background-position: -400px 0;}
 .icon_wm_case.on.gov7, .icon_wm_case:hover.gov7 {background-position: -480px 0;}
 
-.icon_wm_case.o2o{background-image:url("http://stc.weimob.com/img/www/index1/ds/icon_wm_case_ds.png?2014-3-6");}
+.icon_wm_case.o2o{background-image:url("/img/www/index1/ds/icon_wm_case_ds.png?2014-3-6");}
 .icon_wm_case.ds1 {background-position: 0 -80px;}
 .icon_wm_case.ds2 {background-position: -80px -80px;}
 .icon_wm_case.ds3 {background-position: -160px -80px;}
@@ -472,7 +472,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.ds6, .icon_wm_case:hover.ds6 {background-position: -400px 0;}
 .icon_wm_case.on.ds7, .icon_wm_case:hover.ds7 {background-position: -480px 0;}
 
-.icon_wm_case.recr{background-image:url("http://stc.weimob.com/img/www/index1/yul/icon_wm_case_yul.png?2014-3-6");}
+.icon_wm_case.recr{background-image:url("/img/www/index1/yul/icon_wm_case_yul.png?2014-3-6");}
 .icon_wm_case.yul1 {background-position: 0 -80px;}
 .icon_wm_case.yul2 {background-position: -80px -80px;}
 .icon_wm_case.yul3 {background-position: -160px -80px;  }
@@ -488,7 +488,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.yul6, .icon_wm_case:hover.yul6 {background-position: -400px 0;}
 .icon_wm_case.on.yul6, .icon_wm_case:hover.yul6 {background-position: -480px 0;}
 
-.icon_wm_case.deco{background-image:url("http://stc.weimob.com/img/www/index1/zh/icon_wm_case_zh.png?2014-3-6");}
+.icon_wm_case.deco{background-image:url("/img/www/index1/zh/icon_wm_case_zh.png?2014-3-6");}
 .icon_wm_case.zh1 {background-position: 0 -80px;}
 .icon_wm_case.zh2 {background-position: -80px -80px;}
 .icon_wm_case.zh3 {background-position: -160px -80px;  }
@@ -504,7 +504,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.zh6, .icon_wm_case:hover.zh6 {background-position: -400px 0;}
 .icon_wm_case.on.zh7, .icon_wm_case:hover.zh7 {background-position: -480px 0;}
 
-.icon_wm_case.wedd{background-image:url("http://stc.weimob.com/img/www/index1/hs/icon_wm_case_hs.png?2014-3-6");}
+.icon_wm_case.wedd{background-image:url("/img/www/index1/hs/icon_wm_case_hs.png?2014-3-6");}
 .icon_wm_case.hs1 {background-position: 0 -80px;}
 .icon_wm_case.hs2 {background-position: -80px -80px;}
 .icon_wm_case.hs3 {background-position: -160px -80px;  }
@@ -520,7 +520,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.hs6, .icon_wm_case:hover.hs6 {background-position: -400px 0;}
 .icon_wm_case.on.hs7, .icon_wm_case:hover.hs7 {background-position: -480px 0;}
 
-.icon_wm_case.comm{background-image:url("http://stc.weimob.com/img/www/index1/tx/icon_wm_case_tx.png?2014-3-6");}
+.icon_wm_case.comm{background-image:url("/img/www/index1/tx/icon_wm_case_tx.png?2014-3-6");}
 .icon_wm_case.tx1 {background-position: 0 -80px;}
 .icon_wm_case.tx2 {background-position: -80px -80px;}
 .icon_wm_case.tx3 {background-position: -160px -80px;  }
@@ -536,7 +536,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.tx7 {background-position: -480px -80px;}
 .icon_wm_case.on.tx7, .icon_wm_case:hover.tx7 {background-position: -480px 0;}
 
-.icon_wm_case.cosm{background-image:url("http://stc.weimob.com/img/www/index1/mr/icon_wm_case_mr.png?2014-3-6");}
+.icon_wm_case.cosm{background-image:url("/img/www/index1/mr/icon_wm_case_mr.png?2014-3-6");}
 .icon_wm_case.mr1 {background-position: 0 -80px;}
 .icon_wm_case.mr2 {background-position: -80px -80px;}
 .icon_wm_case.mr3 {background-position: -160px -80px;  }
@@ -552,7 +552,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.mr6, .icon_wm_case:hover.mr6 {background-position: -400px 0;}
 .icon_wm_case.on.mr7, .icon_wm_case:hover.mr7 {background-position: -480px 0;}
 
-.icon_wm_case.bank{background-image:url("http://stc.weimob.com/img/www/index1/bk/icon_wm_case_bk.png?2014-3-6");}
+.icon_wm_case.bank{background-image:url("/img/www/index1/bk/icon_wm_case_bk.png?2014-3-6");}
 .icon_wm_case.bk1 {background-position: 0 -80px;}
 .icon_wm_case.bk2 {background-position: -80px -80px;}
 .icon_wm_case.bk3 {background-position: -160px -80px;  }
@@ -568,7 +568,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.bk6, .icon_wm_case:hover.bk6 {background-position: -400px 0;}
 .icon_wm_case.on.bk7, .icon_wm_case:hover.bk7 {background-position: -480px 0;}
 
-.icon_wm_case.adert{background-image:url("http://stc.weimob.com/img/www/index1/ad/icon_wm_case_ad.png?2014-3-6");}
+.icon_wm_case.adert{background-image:url("/img/www/index1/ad/icon_wm_case_ad.png?2014-3-6");}
 .icon_wm_case.ad1 {background-position: 0 -80px;}
 .icon_wm_case.ad2 {background-position: -80px -80px;}
 .icon_wm_case.ad3 {background-position: -160px -80px;  }
@@ -584,7 +584,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.ad6, .icon_wm_case:hover.ad6 {background-position: -400px 0;}
 .icon_wm_case.on.ad7, .icon_wm_case:hover.ad7 {background-position: -480px 0;}
 
-.icon_wm_case.retail{background-image:url("http://stc.weimob.com/img/www/index1/lis/icon_wm_case_lis.png?2014-3-6");}
+.icon_wm_case.retail{background-image:url("/img/www/index1/lis/icon_wm_case_lis.png?2014-3-6");}
 .icon_wm_case.lis1 {background-position: 0 -80px;}
 .icon_wm_case.lis2 {background-position: -80px -80px;}
 .icon_wm_case.lis3 {background-position: -160px -80px;  }
@@ -600,7 +600,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.lis6, .icon_wm_case:hover.lis6 {background-position: -400px 0;}
 .icon_wm_case.on.lis7, .icon_wm_case:hover.lis7 {background-position: -480px 0;}
 
-.icon_wm_case.gener{background-image:url("http://stc.weimob.com/img/www/index1/bh/icon_wm_case_bh.png?2014-3-6");}
+.icon_wm_case.gener{background-image:url("/img/www/index1/bh/icon_wm_case_bh.png?2014-3-6");}
 .icon_wm_case.bh1 {background-position: 0 -80px;}
 .icon_wm_case.bh2 {background-position: -80px -80px;}
 .icon_wm_case.bh3 {background-position: -160px -80px;  }
@@ -616,7 +616,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.bh6, .icon_wm_case:hover.bh6 {background-position: -400px 0;}
 .icon_wm_case.on.bh7, .icon_wm_case:hover.bh7 {background-position: -480px 0;}
 
-.icon_wm_case.wedding{background-image:url("http://stc.weimob.com/img/www/index1/hq/icon_wm_case_hq.png?2014-3-6");}
+.icon_wm_case.wedding{background-image:url("/img/www/index1/hq/icon_wm_case_hq.png?2014-3-6");}
 .icon_wm_case.hq1 {background-position: 0 -80px;}
 .icon_wm_case.hq2 {background-position: -80px -80px;}
 .icon_wm_case.hq3 {background-position: -160px -80px;  }
@@ -633,7 +633,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.hq7, .icon_wm_case:hover.hq7 {background-position: -480px 0;}
 
 
-.icon_wm_case.tech{background-image:url("http://stc.weimob.com/img/www/index1/it/icon_wm_case_it.png?2014-3-6");}
+.icon_wm_case.tech{background-image:url("/img/www/index1/it/icon_wm_case_it.png?2014-3-6");}
 .icon_wm_case.it1 {background-position: 0 -80px;}
 .icon_wm_case.it2 {background-position: -80px -80px;}
 .icon_wm_case.it3 {background-position: -160px -80px;  }
@@ -649,7 +649,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.it6, .icon_wm_case:hover.it6 {background-position: -400px 0;}
 .icon_wm_case.on.it7, .icon_wm_case:hover.it7 {background-position: -480px 0;}
 
-.icon_wm_case.law{background-image:url("http://stc.weimob.com/img/www/index1/ls/icon_wm_case_fl.png?2014-3-6");}
+.icon_wm_case.law{background-image:url("/img/www/index1/ls/icon_wm_case_fl.png?2014-3-6");}
 .icon_wm_case.fl1 {background-position: 0 -80px;}
 .icon_wm_case.fl2 {background-position: -80px -80px;}
 .icon_wm_case.fl3 {background-position: -160px -80px;  }
@@ -665,7 +665,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.fl6, .icon_wm_case:hover.fl6 {background-position: -400px 0;}
 .icon_wm_case.on.fl7, .icon_wm_case:hover.fl7 {background-position: -480px 0;}
 
-.icon_wm_case.educ{background-image:url("http://stc.weimob.com/img/www/index1/edu/icon_wm_case_edu.png?2014-3-6");}
+.icon_wm_case.educ{background-image:url("/img/www/index1/edu/icon_wm_case_edu.png?2014-3-6");}
 .icon_wm_case.edu1 {background-position: 0 -80px;}
 .icon_wm_case.edu2 {background-position: -80px -80px;}
 .icon_wm_case.edu3 {background-position: -160px -80px;  }
@@ -681,7 +681,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.edu6, .icon_wm_case:hover.edu6 {background-position: -400px 0;}
 .icon_wm_case.on.edu7, .icon_wm_case:hover.edu7 {background-position: -480px 0;}
 
-.icon_wm_case.life{background-image:url("http://stc.weimob.com/img/www/index1/wsh/icon_wm_case_wsh.png?2014-3-7");}
+.icon_wm_case.life{background-image:url("/img/www/index1/wsh/icon_wm_case_wsh.png?2014-3-7");}
 .icon_wm_case.wsh1 {background-position: 0 -80px;}
 .icon_wm_case.wsh2 {background-position: -80px -80px;}
 .icon_wm_case.wsh3 {background-position: -160px -80px;  }
@@ -697,7 +697,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.wsh6, .icon_wm_case:hover.wsh6 {background-position: -400px 0;}
 .icon_wm_case.on.wsh7, .icon_wm_case:hover.wsh7 {background-position: -480px 0;}
 
-.icon_wm_case.jew{background-image:url("http://stc.weimob.com/img/www/index1/zb/icon_wm_case_zb.png?2014-3-6");}
+.icon_wm_case.jew{background-image:url("/img/www/index1/zb/icon_wm_case_zb.png?2014-3-6");}
 .icon_wm_case.zb1 {background-position: 0 -80px;}
 .icon_wm_case.zb2 {background-position: -80px -80px;}
 .icon_wm_case.zb3 {background-position: -160px -80px;  }
@@ -713,7 +713,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.zb6, .icon_wm_case:hover.zb6 {background-position: -400px 0;}
 .icon_wm_case.on.zb7, .icon_wm_case:hover.zb7 {background-position: -480px 0;}
 
-.icon_wm_case.device{background-image:url("http://stc.weimob.com/img/www/index1/dig/icon_wm_case_dig.png?2014-3-6");}
+.icon_wm_case.device{background-image:url("/img/www/index1/dig/icon_wm_case_dig.png?2014-3-6");}
 .icon_wm_case.dig1 {background-position: 0 -80px;}
 .icon_wm_case.dig2 {background-position: -80px -80px;}
 .icon_wm_case.dig3 {background-position: -160px -80px;  }
@@ -729,7 +729,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.dig6, .icon_wm_case:hover.dig6 {background-position: -400px 0;}
 .icon_wm_case.on.dig7, .icon_wm_case:hover.dig7 {background-position: -480px 0;}
 
-.icon_wm_case.other{background-image:url("http://stc.weimob.com/img/www/index1/qt/icon_wm_case_qt.png?2014-3-6");}
+.icon_wm_case.other{background-image:url("/img/www/index1/qt/icon_wm_case_qt.png?2014-3-6");}
 .icon_wm_case.qt1 {background-position: 0 -80px;}
 .icon_wm_case.qt2 {background-position: -80px -80px;}
 .icon_wm_case.qt3 {background-position: -160px -80px;  }
@@ -746,7 +746,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.qt7, .icon_wm_case:hover.qt7 {background-position: -480px 0;}
 
 
-.icon_wm_case.skill{background-image:url("http://stc.weimob.com/img/www/index1/art/icon_wm_case_art.png?2014-3-6");}
+.icon_wm_case.skill{background-image:url("/img/www/index1/art/icon_wm_case_art.png?2014-3-6");}
 .icon_wm_case.art1 {background-position: 0 -80px;}
 .icon_wm_case.art2 {background-position: -80px -80px;}
 .icon_wm_case.art3 {background-position: -160px -80px;  }
@@ -762,7 +762,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.art6, .icon_wm_case:hover.art6 {background-position: -400px 0;}
 .icon_wm_case.on.art7, .icon_wm_case:hover.art7 {background-position: -480px 0;}
 
-.icon_wm_case.wine{background-image:url("http://stc.weimob.com/img/www/index1/co/icon_wm_case_co.png?2014-3-6");}
+.icon_wm_case.wine{background-image:url("/img/www/index1/co/icon_wm_case_co.png?2014-3-6");}
 .icon_wm_case.co1 {background-position: 0 -80px;}
 .icon_wm_case.co2 {background-position: -80px -80px;}
 .icon_wm_case.co3 {background-position: -160px -80px;}
@@ -779,7 +779,7 @@ border-radius: 4px;-moz-box-shadow: inset 0 1px 0 #eee,0 1px 5px #a1a1a1;-webkit
 .icon_wm_case.on.co7, .icon_wm_case:hover.co7 {background-position: -480px 0;}
 
 
-.icon_wm_case.pay{background-image:url("http://stc.weimob.com/img/www/index1/pay/icon_wm_case_pay.png?2014-4-8");}
+.icon_wm_case.pay{background-image:url("/img/www/index1/pay/icon_wm_case_pay.png?2014-4-8");}
 .icon_wm_case.pay1 {background-position: 0 -80px;}
 .icon_wm_case.pay2 {background-position: -80px -80px;}
 .icon_wm_case.pay3 {background-position: -160px -80px;}
@@ -818,9 +818,9 @@ select {width: 220px;border: 1px solid #535069;background-color: #ffffff;}
 .maroon {color: #535069;padding-left: 2px;}
 .help-inline{display: inline-block;margin-bottom: 0;vertical-align: middle;}
 .control-group .controls select {height: 45px;width: 180px;}
-.control-group .btn-register {background: url("http://stc.weimob.com/img/www/index1/weimob.png") no-repeat 0 -122px;
+.control-group .btn-register {background: url("/img/www/index1/weimob.png") no-repeat 0 -122px;
 border: 0;cursor: pointer;display: inline-block;height: 61px;margin-top: 10px;outline: medium none;width: 372px; margin-left:200px;}
-.control-group .btn-register:hover{ background:raba(255,255,255,0.3);background: url("http://stc.weimob.com/img/www/index1/weimob.png") no-repeat 0 -122px;}
+.control-group .btn-register:hover{ background:raba(255,255,255,0.3);background: url("/img/www/index1/weimob.png") no-repeat 0 -122px;}
 
 .Proxy{ padding:20px 50px;}
 .Proxy h3{ font-size:16px; position:relative;}
@@ -843,8 +843,8 @@ border: 0;cursor: pointer;display: inline-block;height: 61px;margin-top: 10px;ou
 #notice_message .title {width: 600px;	height:20px;background-color:#333;color:#fff;padding:3px 0px;font-size:14px;line-height:20px;text-align:center;}
 #notice_message .title a {*margin-top:-20px;_margin-top:-20px;	display: inline;font-size: 20px;cursor: pointer;float: right;padding-right: 6px;padding-bottom: 2px;}
 #notice_message .content{font-size: 16px;line-height: 24px;padding: 5px 10px;width: auto; overflow:hidden;}
-.guideright{float:right; text-decoration:none; text-indent:-9999px; display:inline-block;  padding:0 5px; background-image: url("http://stc.weimob.com/img/www/index1/guideright.png"); background-repeat:no-repeat; width:150px;}
-.guideright-topic{float:right; text-decoration:none; text-indent:-9999px; display:inline-block;  padding:0 5px; background-image: url("http://stc.weimob.com/img/www/index1/guideright-topic.png"); background-repeat:no-repeat; width:130px;}
+.guideright{float:right; text-decoration:none; text-indent:-9999px; display:inline-block;  padding:0 5px; background-image: url("/img/www/index1/guideright.png"); background-repeat:no-repeat; width:150px;}
+.guideright-topic{float:right; text-decoration:none; text-indent:-9999px; display:inline-block;  padding:0 5px; background-image: url("/img/www/index1/guideright-topic.png"); background-repeat:no-repeat; width:130px;}
 
 
 .feedback{display:none; min-height:510px; width:420px; border-radius:5px; box-shadow:2px 0 5px #999999; padding:10px;position: fixed;z-index: 9999;left: 50%;top: 45%;background: #fff;margin-left: -230px;margin-top: -215px;}
@@ -870,15 +870,15 @@ border: 0;cursor: pointer;display: inline-block;height: 61px;margin-top: 10px;ou
 #feedback-input{width:200px; border-radius:3px;background:#e8eaee;border:1px solid #ccd0e1;   height:20px; padding:3px; margin-top:5px;}
 #feedback-Captcha{ width:80px; border-radius:3px;background:#e8eaee;border:1px solid #ccd0e1;   height:20px; padding:3px;}
 .blue{ color:#10a6f9;}
-.feedbackbot{ background-image: url("http://stc.weimob.com/img/www/index1/feedback.png"); position:fixed; bottom:5px; right:10px; width:60px; height:69px; display:block;}
-.feedbackbot:hover{ background-image: url("http://stc.weimob.com/img/www/index1/feedbackhover.png")}
-.feed-btn{ background-image: url("http://stc.weimob.com/img/www/index1/feedbackbot.png"); width:129px; height:39px; margin-top:10px; border:0; cursor:pointer; margin-left:10px;}
-.feed-btn:hover{background:rgba(67,73,98,0.7); background: url("http://stc.weimob.com/img/www/index1/feedbackbot.png") no-repeat; }
+.feedbackbot{ background-image: url("/img/www/index1/feedback.png"); position:fixed; bottom:5px; right:10px; width:60px; height:69px; display:block;}
+.feedbackbot:hover{ background-image: url("/img/www/index1/feedbackhover.png")}
+.feed-btn{ background-image: url("/img/www/index1/feedbackbot.png"); width:129px; height:39px; margin-top:10px; border:0; cursor:pointer; margin-left:10px;}
+.feed-btn:hover{background:rgba(67,73,98,0.7); background: url("/img/www/index1/feedbackbot.png") no-repeat; }
 div.notice_customers{
 	background:#fff;
 }
 #notice-panel {
-	background: url("http://stc.weimob.com/img/www/index1/customers/br1.jpg") no-repeat  bottom;
+	background: url("/img/www/index1/customers/br1.jpg") no-repeat  bottom;
 	margin: 0 auto;
 	width: 1000px;
 	height: 48px;
@@ -895,7 +895,7 @@ div.notice_customers{
 	 display:inline;
 	 position:absolute;
 	 top:68px;
-	 background: url("http://stc.weimob.com/img/www/index1/customers/wm.jpg") no-repeat ;
+	 background: url("/img/www/index1/customers/wm.jpg") no-repeat ;
 	 text-indent:-9999px;
 	 width: 240px;
 	 height: 20px;
@@ -926,7 +926,7 @@ div.notice_customers{
 	display: block;
 	width: 12px;
 	height: 24px;
-	background: transparent url("http://stc.weimob.com/img/www/index1/customers/customers-nav.gif") no-repeat scroll top left;
+	background: transparent url("/img/www/index1/customers/customers-nav.gif") no-repeat scroll top left;
 	position: absolute;
 	top:45%;
 	left: 50%;
@@ -995,7 +995,7 @@ div.notice_customers{
 }
 
 .clients-display ul li a ,.clients-display ul li a.first {
-	background: #fff url("http://stc.weimob.com/img/www/index1/customers/clients.png") no-repeat;
+	background: #fff url("/img/www/index1/customers/clients.png") no-repeat;
 }
 
 
@@ -1106,7 +1106,7 @@ margin-top: -5px;
 margin-left: -58px;
 width: 48px;
 height: 39px;
-background-image: url("http://stc.weimob.com/img/www/index1/success-icon.png");
+background-image: url("/img/www/index1/success-icon.png");
 }
 .reg-tips-info-suc {
 color: #2daae1;
@@ -1139,24 +1139,24 @@ font-size: 24px;
 .Public-box1{ background:rgba(255, 255, 255, 0.7) none repeat scroll 0 0 !important;
 	filter:Alpha(opacity=30); background:#fff;height:auto; padding-bottom:20px; border-radius:5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;box-shadow:0 1px 2px #666;  -webkit-box-shadow:0 1px 2px #666;
 	-moz-box-shadow:0 1px 2px #666;padding:5px; }
-.btn-3 {	background: url("http://stc.weimob.com/img/www/index1/weimob.png?2014-2-25") no-repeat -88px -193px;	font-size: 14px;	height: 35px;	line-height: 35px;	width: 102px;	border: none;	color: #fff;
+.btn-3 {	background: url("/img/www/index1/weimob.png?2014-2-25") no-repeat -88px -193px;	font-size: 14px;	height: 35px;	line-height: 35px;	width: 102px;	border: none;	color: #fff;
 	display: inline-block;text-align: center;font-family: "Microsoft Yahei";}
-.btn-3:hover {background: url("http://stc.weimob.com/img/www/index1/weimob.png?2014-2-25") no-repeat -191px -193px;height: 35px;line-height: 35px;width: 102px;border: none;color: #fff;display: inline-block;text-align: center;font-family: "Microsoft Yahei";}
-.btn-4 {background: url("http://stc.weimob.com/img/www/index1/weimob.png?2014-2-25") no-repeat -166px -242px;font-size: 14px;
+.btn-3:hover {background: url("/img/www/index1/weimob.png?2014-2-25") no-repeat -191px -193px;height: 35px;line-height: 35px;width: 102px;border: none;color: #fff;display: inline-block;text-align: center;font-family: "Microsoft Yahei";}
+.btn-4 {background: url("/img/www/index1/weimob.png?2014-2-25") no-repeat -166px -242px;font-size: 14px;
 height: 35px;line-height: 35px;width: 131px;border: none;color: #fff;display: inline-block;text-align: center;
 font-family: "Microsoft Yahei";}
-.btn-4:hover {background: url("http://stc.weimob.com/img/www/index1/weimob.png?2014-2-25") no-repeat -166px -282px;font-size: 14px;
+.btn-4:hover {background: url("/img/www/index1/weimob.png?2014-2-25") no-repeat -166px -282px;font-size: 14px;
 height: 35px;line-height: 35px;width: 131px;border: none;color: #fff;display: inline-block;text-align: center;font-family: "Microsoft Yahei";}
-.btn-4:active, .btn-4.disabled {background: url("http://stc.weimob.com/img/www/index1/weimob.png?2014-2-25") no-repeat -166px -324px;font-size: 14px;height: 35px;line-height: 35px;width: 131px;border: none;color: #666;display: inline-block;
+.btn-4:active, .btn-4.disabled {background: url("/img/www/index1/weimob.png?2014-2-25") no-repeat -166px -324px;font-size: 14px;height: 35px;line-height: 35px;width: 131px;border: none;color: #666;display: inline-block;
 text-align: center;font-family: "Microsoft Yahei"; border:0;}
 .pwd-phone{ font-size:16px; color:#000; padding:0 20px;}
 .pwd-auth{ color:#00cc99;font-size:18px;}
 .pwd-auth1{ color:#005c92;font-size:14px;}
 .prompt { margin-left:100px; margin:10px 0 10px 100px; font-size:16px; }
 .alter-success{ text-align:center; margin-top:150px;}
-.pwd-success{background: url("http://stc.weimob.com/img/www/index1/weimob.png?2014-2-25") no-repeat -20px -371px; line-height:32px; line-height:32px; font-size:20px;  }
+.pwd-success{background: url("/img/www/index1/weimob.png?2014-2-25") no-repeat -20px -371px; line-height:32px; line-height:32px; font-size:20px;  }
 #passwordStrengthDiv{ margin-left:180px;}
-.is0 {BACKGROUND: url("http://stc.weimob.com/img/www/index1/progressImg1.png?2014-2-25") no-repeat 0px 0px; WIDTH: 138px; HEIGHT: 7px}
+.is0 {BACKGROUND: url("/img/www/index1/progressImg1.png?2014-2-25") no-repeat 0px 0px; WIDTH: 138px; HEIGHT: 7px}
 .is10 {BACKGROUND-POSITION: 0px -7px}
 .is20 {BACKGROUND-POSITION: 0px -14px}
 .is30 {BACKGROUND-POSITION: 0px -21px}
@@ -1183,20 +1183,20 @@ text-align: center;font-family: "Microsoft Yahei"; border:0;}
 .share-wrap .qzone-share{background-color:#fdac13}
 .share-wrap .qzone-share:hover{background-color:#ff9e03}
 
-.videopeak-dialog-title-close {width: 30px;height: 30px;top: -15px;right: -15px;background:url("http://stc.weimob.com/img/www/index1/close.png") no-repeat 0px 0px;position:absolute; cursor:pointer;}
+.videopeak-dialog-title-close {width: 30px;height: 30px;top: -15px;right: -15px;background:url("/img/www/index1/close.png") no-repeat 0px 0px;position:absolute; cursor:pointer;}
 .videopopup{width: 310px;height: 170px;position: relative;cursor: pointer;}
-.videopopup1 {background-image: url("http://stc.weimob.com/img/www/index1/video_03.png");}
-.videopopup2 {background-image: url("http://stc.weimob.com/img/www/index1/video_05.png");}
-.videopopup3 {background-image: url("http://stc.weimob.com/img/www/index1/video_07.png");}
+.videopopup1 {background-image: url("/img/www/index1/video_03.png");}
+.videopopup2 {background-image: url("/img/www/index1/video_05.png");}
+.videopopup3 {background-image: url("/img/www/index1/video_07.png");}
 .videopopup:hover .play-button{background-position:0 -57px}
 .play-button {width: 150px;height: 55px;
-background-image: url("http://stc.weimob.com/img/www/index1/play_button.png");background-repeat: no-repeat;background-position: 0 0;
+background-image: url("/img/www/index1/play_button.png");background-repeat: no-repeat;background-position: 0 0;
 display: inline-block;position: absolute;left: 20px;bottom: 15px;vertical-align: middle;}
-.agents{ margin:0 auto; padding-top:200px; width:600px; background: url("http://stc.weimob.com/img/www/index1/logo-auth.png?2014-3-5") no-repeat center center;}
+.agents{ margin:0 auto; padding-top:200px; width:600px; background: url("/img/www/index1/logo-auth.png?2014-3-5") no-repeat center center;}
 .agents-error{ font-size:14px; color:#BF0022; line-height:28px; position:absolute;}
 .agents input{ height:35px; padding:0 5px;vertical-align:middle; margin:0;}
 .btn-5{ font-size:16px; cursor:pointer;}
-.agents_search{ background: url("http://stc.weimob.com/img/www/index1/weimob-authorize.png") no-repeat; width:766px; height:544px; margin:0 auto;}
+.agents_search{ background: url("/img/www/index1/weimob-authorize.png") no-repeat; width:766px; height:544px; margin:0 auto;}
 .agents_search h2,h3{ font-family: "Microsoft Yahei"; text-align:center; font-weight:bold; color:#040000;}
 .agents_search h2{padding-top:239px; font-size:34px;}
 .agents_search h3 { padding-top:38px; font-size:18px;}
@@ -1214,7 +1214,7 @@ display: inline-block;position: absolute;left: 20px;bottom: 15px;vertical-align:
 .qa-nav-cat-list {list-style: none;margin: 0;font-size: 14px;padding: 0px;margin-bottom: 5px;}
 
 .qa-nav-cat-list-title {height: 41px;line-height: 41px;padding: 0 17px 0px 37px;border-bottom: 1px solid #D1D1D1;
-background: url("http://stc.weimob.com/img/www/index1/classify.png") no-repeat 12px 13px;}
+background: url("/img/www/index1/classify.png") no-repeat 12px 13px;}
 .qa-nav-cat-list li {padding: 0 17px 0px 37px;height: 41px;line-height: 41px;}
 .qa-nav-cat-list li a{ text-decoration:none; color:#000;}
 .qa-nav-cat-list .qa-nav-cat-item-selected {

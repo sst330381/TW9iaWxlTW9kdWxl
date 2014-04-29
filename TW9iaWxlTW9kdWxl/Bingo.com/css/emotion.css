@@ -17,7 +17,7 @@
 }
 
 .icon18C {
-	background: url("http://stc.weimob.com/img/biaoqing.png") no-repeat scroll 0 0 transparent;
+	background: url("/img/biaoqing.png") no-repeat scroll 0 0 transparent;
 	padding-left: 18px;
 }
 
@@ -51,7 +51,7 @@
 }
  
 .functionBar .emotions table td div { 
-	background: url("http://stc.weimob.com/img/face/default.gif") no-repeat 0 0 scroll transparent;
+	background: url("/img/face/default.gif") no-repeat 0 0 scroll transparent;
 	width: 24px;
 	height: 24px;
 	cursor: pointer;

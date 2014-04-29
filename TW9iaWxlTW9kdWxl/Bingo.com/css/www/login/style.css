@@ -14,7 +14,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
 
 body {
 
-	background: #fff url("http://stc.weimob.com/css/img/tbguser.png") top repeat-x;
+	background: #fff url("/css/img/tbguser.png") top repeat-x;
 
 	color: #333;
 
@@ -102,13 +102,13 @@ a:hover {
 
 body {
 
-	background: url("http://stc.weimob.com/img/www/index1/banner.jpg") no-repeat; background-size:100% 100%;
+	background: url("/img/www/index1/banner.jpg") no-repeat; background-size:100% 100%;
 
 }
 
 .bodybig {
 
-	background: url("http://stc.weimob.com/img/quc_index_bgbig.jpg") no-repeat 50% 0
+	background: url("/img/quc_index_bgbig.jpg") no-repeat 50% 0
 
 }
 
@@ -122,7 +122,7 @@ body {
 
 .reg-wrapper {
 
-	background: url("http://stc.weimob.com/img/bdbg.png") repeat-x;
+	background: url("/img/bdbg.png") repeat-x;
 
 	height: 394px;
 
@@ -135,13 +135,13 @@ body {
 	min-height: 550px;
 
 	padding-top: 14px;
-	background: url("http://stc.weimob.com/img/www/index1/banner.jpg") no-repeat; background-size:100% 100%;
+	background: url("/img/www/index1/banner.jpg") no-repeat; background-size:100% 100%;
 
 }
 
 .reg-wrapper11 {
 
-	background: url("http://stc.weimob.com/img/bdbg11.png") repeat-x;
+	background: url("/img/bdbg11.png") repeat-x;
 
 	height: 454px;
 
@@ -151,9 +151,9 @@ body {
 
 .reg-wrapper1 {
 
-	background: url("http://stc.weimob.com/img/bdbg1.png") repeat-x;
+	background: url("/img/bdbg1.png") repeat-x;
 
-	_background: url("http://stc.weimob.com/img/bdbg3.png") no-repeat;
+	_background: url("/img/bdbg3.png") no-repeat;
 
 	height: 500px;
 
@@ -163,9 +163,9 @@ body {
 
 .reg-wrapper2 {
 
-	background: url("http://stc.weimob.com/img/bdbg2.png") repeat-x;
+	background: url("/img/bdbg2.png") repeat-x;
 
-	_background: url("http://stc.weimob.com/img/bdbg4.png") no-repeat;
+	_background: url("/img/bdbg4.png") no-repeat;
 
 	height: 780px;
 
@@ -211,7 +211,7 @@ body {
 
 .info .registerNew {
 
-	background: url("http://stc.weimob.com/img/registerNew.png") no-repeat 86px 1px;
+	background: url("/img/registerNew.png") no-repeat 86px 1px;
 
 	display: inline-block;
 
@@ -223,7 +223,7 @@ body {
 
 .info .loginAccount {
 
-	background: url("http://stc.weimob.com/img/registerNew.png") no-repeat 100px 1px;
+	background: url("/img/registerNew.png") no-repeat 100px 1px;
 
 	display: inline-block;
 
@@ -277,7 +277,7 @@ body {
 
 #hd .logo {
 
-	background: url("http://stc.weimob.com/img/iweimob_logo.png") no-repeat;
+	background: url("/img/iweimob_logo.png") no-repeat;
 
 	float: left;
 
@@ -524,7 +524,7 @@ color:gray
 
 .checkbox {
 
-	background: url("http://stc.weimob.com/img/iweimob_email.png") no-repeat -247px -817px;
+	background: url("/img/iweimob_email.png") no-repeat -247px -817px;
 
 	display: inline-block;
 
@@ -544,7 +544,7 @@ color:gray
 
 .checked {
 
-	background: url("http://stc.weimob.com/img/iweimob_email.png") no-repeat -272px -817px
+	background: url("/img/iweimob_email.png") no-repeat -272px -817px
 
 }
 
@@ -633,7 +633,7 @@ padding-bottom: 10px;
 
 .mod-qiuser-pop .btn-register {
 
-	background: url("http://stc.weimob.com/img/iweimob_email.png") no-repeat -487px -10px
+	background: url("/img/iweimob_email.png") no-repeat -487px -10px
 
 }
 
@@ -655,13 +655,13 @@ padding-bottom: 10px;
 
 }
 
-.mod-qiuser-pop .btn-register:hover{background:url("http://stc.weimob.com/img/iweimob_email.png") no-repeat -487px -85px}
+.mod-qiuser-pop .btn-register:hover{background:url("/img/iweimob_email.png") no-repeat -487px -85px}
 
 .mod-qiuser-pop .btn-login {
 
-	background: url("http://stc.weimob.com/img/iweimob_email.png") no-repeat -10px -10px;
+	background: url("/img/iweimob_email.png") no-repeat -10px -10px;
 
-	_background: url("http://stc.weimob.com/img/iweimob_email.png") no-repeat -10px -10px;
+	_background: url("/img/iweimob_email.png") no-repeat -10px -10px;
 
 	border: 0;
 
@@ -675,7 +675,7 @@ padding-bottom: 10px;
 
 }
 
-.mod-qiuser-pop .btn-login:hover{background:url("http://stc.weimob.com/img/iweimob_email.png") no-repeat -10px -76px;_background:url("http://stc.weimob.com/img/iweimob_email.png") no-repeat -10px -76px;border:0;cursor:pointer;height:51px;outline:medium none;width:375px}
+.mod-qiuser-pop .btn-login:hover{background:url("/img/iweimob_email.png") no-repeat -10px -76px;_background:url("/img/iweimob_email.png") no-repeat -10px -76px;border:0;cursor:pointer;height:51px;outline:medium none;width:375px}
 
 
 

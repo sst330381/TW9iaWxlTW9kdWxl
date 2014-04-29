@@ -5,5 +5,5 @@
 .nav_10 ul li .tbox span{ width:18px; height:28px; display:block; margin:5px auto;}
 .nav_10 ul li .tbox span.tel{ background-position:-232px 0px;}
 .nav_10 ul li .tbox span.vipcard{background-position:-214px 0px; }
-.nav_10 ul li .tbox span.home{  background:url(../../img/template/lib/v82_icon.png); background-size:auto 34px; background-position:-196px 0px;}
+.nav_10 ul li .tbox span.home{  background:url(/img/template/lib/v82_icon.png); background-size:auto 34px; background-position:-196px 0px;}
 .nav_10 ul li .tbox span.address{background-position:-250px 0px; }

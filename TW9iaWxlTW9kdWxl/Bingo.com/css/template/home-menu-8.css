@@ -12,7 +12,7 @@
 	width:100%;
 	border:5px solid red;
 	border-width: 4px 0 0 0;
-	border-image: url(../../img/template/lib/v80_7.png) 9 repeat;
+	border-image: url(/img/template/lib/v80_7.png) 9 repeat;
 	background: #c23828;
 	background-clip: content-box;
 }
@@ -39,7 +39,7 @@
 	width:25px;
 	height:25px;
 	margin:auto;
-	background:url(../../img/template/lib/v80_nav.png) no-repeat -13px -13px;
+	background:url(/img/template/lib/v80_nav.png) no-repeat -13px -13px;
 	-webkit-background-size: auto 100px;
 }
 .nav_10 li>a>span.back{

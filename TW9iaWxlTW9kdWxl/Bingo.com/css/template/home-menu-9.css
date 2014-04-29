@@ -49,17 +49,17 @@
 	color:#fde028;
 }
 .nav_10 li>a>span.back{
-	background:url(../../img/template/lib/v83_icon.png);
+	background:url(/img/template/lib/v83_icon.png);
 	-webkit-background-size: auto 25px;
 	background-position:-16px 0px;
 }
 .nav_10 li>a>span.conversation{
-	background:url(../../img/template/lib/v81_nav.png) no-repeat;
+	background:url(/img/template/lib/v81_nav.png) no-repeat;
 	-webkit-background-size: auto 50px;
 	background-position:0px 0x;
 }
 .nav_10 li>a>span.star{
-	background:url(../../img/template/lib/v81_nav.png) no-repeat;
+	background:url(/img/template/lib/v81_nav.png) no-repeat;
 	-webkit-background-size: auto 50px;
 	background-position:-25px 0px;
 }
@@ -67,13 +67,13 @@
 	color:#363634;
 }
 .nav_10 li>a>span.money{
-	background:url(../../img/template/lib/v81_nav.png) no-repeat;
+	background:url(/img/template/lib/v81_nav.png) no-repeat;
 	-webkit-background-size: auto 50px;
 	width:28px;
 	background-position:-75px 0px;
 }
 .nav_10 li>a>span.settings{
-	background:url(../../img/template/lib/v81_nav.png) no-repeat;
+	background:url(/img/template/lib/v81_nav.png) no-repeat;
 	-webkit-background-size: auto 50px;
 	background-position:-103px 0px;
 }
