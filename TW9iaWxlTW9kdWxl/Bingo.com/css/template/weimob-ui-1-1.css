@@ -110,7 +110,7 @@ body{font-family:Microsoft YaHei,宋体;}
 .weimob-loader{
     position: fixed;
     width:120px;height: 120px;
-    background: #ffffff url("http://stc.weimob.com/img/ajax.gif") center no-repeat;
+    background: #ffffff url("/img/ajax.gif") center no-repeat;
     top:50%;margin-top: -60px;
     left:50%;margin-left: -60px;
 
@@ -188,7 +188,7 @@ body{font-family:Microsoft YaHei,宋体;}
 	margin: 12px auto;
 	width: 24px;height: 24px;
 	position: relative;
-	background: url("http://stc.weimob.com/css/images/weimob-icons.png") no-repeat;
+	background: url("/css/images/weimob-icons.png") no-repeat;
     zoom:0.8;
 }
 
@@ -225,7 +225,7 @@ body{font-family:Microsoft YaHei,宋体;}
 .weimob-navbar .seg{
 	position: absolute;
 	width: 2px;height: 32px;
-	background: url("http://stc.weimob.com/css/images/weimob-icons.png") -138px 0 no-repeat;
+	background: url("/css/images/weimob-icons.png") -138px 0 no-repeat;
 	right: -1px;
 	top: 50%;
 	margin-top: -16px;
@@ -345,7 +345,7 @@ body{font-family:Microsoft YaHei,宋体;}
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url("http://stc.weimob.com/css/images/weimob-icons.png");
+	background-image: url("/css/images/weimob-icons.png");
 	top:50%;margin-top: -24px;
 }
 
@@ -374,7 +374,7 @@ body{font-family:Microsoft YaHei,宋体;}
 	height: 18px;
 	background-color: #666;
 	background-color: rgba(0,0,0,.4);
-	background-image: url("http://stc.weimob.com/img/icons-18-white.png") ;
+	background-image: url("/img/icons-18-white.png") ;
 	background-repeat: no-repeat;
     border-radius: 9px;
     -moz-border-radius: 9px;
@@ -387,7 +387,7 @@ body{font-family:Microsoft YaHei,宋体;}
 	margin-top: -9px;
 	width: 18px;
 	height: 18px;
-	background-image: url("http://stc.weimob.com/img/icons-18-black.png") ;
+	background-image: url("/img/icons-18-black.png") ;
 	background-repeat: no-repeat;
     border-radius: 9px;
     -moz-border-radius: 9px;
@@ -473,7 +473,7 @@ body{font-family:Microsoft YaHei,宋体;}
     background-color: #666;
     opacity: 0.6;
     background-color: rgba(0,0,0,.4);
-    background-image: url("http://stc.weimob.com/css/images/icons-18-white.png") ;
+    background-image: url("/css/images/icons-18-white.png") ;
     background-repeat: no-repeat;
     border-radius: 9px;
     -moz-border-radius: 9px;
@@ -555,13 +555,13 @@ body{font-family:Microsoft YaHei,宋体;}
 
 
 .weimob-easycall-item.type2 .icon{
-    background: url("http://stc.weimob.com/css/images/weimob-icons.png") no-repeat 0 -32px;
+    background: url("/css/images/weimob-icons.png") no-repeat 0 -32px;
 }
 .weimob-easycall-item.type1 .icon{
-    background: url("http://stc.weimob.com/css/images/weimob-icons.png") no-repeat -48px -32px;
+    background: url("/css/images/weimob-icons.png") no-repeat -48px -32px;
 }
 .weimob-easycall-item.type3 .icon{
-    background: url("http://stc.weimob.com/css/images/weimob-icons.png") no-repeat -96px -32px;
+    background: url("/css/images/weimob-icons.png") no-repeat -96px -32px;
 }
 
 .weimob-easycall-item .text{

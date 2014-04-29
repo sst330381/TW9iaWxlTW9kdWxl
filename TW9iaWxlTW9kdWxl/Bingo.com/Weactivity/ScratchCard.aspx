@@ -8,32 +8,32 @@
     <meta content="微盟、微信营销、微信代运营、微信定制开发、微信托管、微网站、微商城、微营销" name="Keywords">
     <meta content="微盟，国内最大的微信公众智能服务平台，微盟八大微体系：微菜单、微官网、微会员、微活动、微商城、微推送、微服务、微统计，企业微营销必备。"
         name="Description">
-    <link rel="stylesheet" type="text/css" href="http://stc.weimob.com/css/bootstrap_min.css?2014-03-07-1"
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap_min.css?2014-03-07-1"
         media="all">
-    <link rel="stylesheet" type="text/css" href="http://stc.weimob.com/css/bootstrap_responsive_min.css?2014-03-07-1"
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap_responsive_min.css?2014-03-07-1"
         media="all">
-    <link rel="stylesheet" type="text/css" href="http://stc.weimob.com/css/style.css?2014-03-07-1"
+    <link rel="stylesheet" type="text/css" href="/css/style.css?2014-03-07-1"
         media="all">
-    <link rel="stylesheet" type="text/css" href="http://stc.weimob.com/css/todc_bootstrap.css?2014-03-07-1"
+    <link rel="stylesheet" type="text/css" href="/css/todc_bootstrap.css?2014-03-07-1"
         media="all">
-    <link rel="stylesheet" type="text/css" href="http://stc.weimob.com/css/themes.css?2014-03-07-1"
+    <link rel="stylesheet" type="text/css" href="/css/themes.css?2014-03-07-1"
         media="all">
-    <link rel="stylesheet" type="text/css" href="http://stc.weimob.com/css/inside.css?2014-03-07-1"
+    <link rel="stylesheet" type="text/css" href="/css/inside.css?2014-03-07-1"
         media="all">
     <script type="text/javascript" async="" src="http://tj.weimob.com/wtj.js?url=http%3A%2F%2Fwww.weimob.com%2FWeactivity%2FScratchCard%3Faid%3D113986"></script>
-    <script type="text/javascript" src="http://stc.weimob.com/src/jQuery.js?2014-03-07-1"></script>
-    <script type="text/javascript" src="http://stc.weimob.com/src/bootstrap_min.js?2014-03-07-1"></script>
+    <script type="text/javascript" src="/src/jQuery.js?2014-03-07-1"></script>
+    <script type="text/javascript" src="/src/bootstrap_min.js?2014-03-07-1"></script>
     <style type="text/css">
         .dropdown-submenu:hover > .dropdown-menu
         {
             display: none;
         }
     </style>
-    <script type="text/javascript" src="http://stc.weimob.com/src/inside.js?2014-03-07-1"></script>
+    <script type="text/javascript" src="/src/inside.js?2014-03-07-1"></script>
     <title>微盟（Weimob）—国内最大的微信公众服务平台</title>
-    <link rel="shortcut icon" href="http://stc.weimob.com/img/favicon.ico">
-    <!--[if lte IE 9]><script src="http://stc.weimob.com/src/watermark.js"></script><![endif]-->
-    <!--[if IE 7]><link href="http://stc.weimob.com/css/font_awesome_ie7.css" rel="stylesheet" /><![endif]-->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <!--[if lte IE 9]><script src="/src/watermark.js"></script><![endif]-->
+    <!--[if IE 7]><link href="/css/font_awesome_ie7.css" rel="stylesheet" /><![endif]-->
     <script charset="utf-8" src="http://trust.baidu.com/vcard/v.js?siteid=3049852&amp;url=http%3A%2F%2Fwww.weimob.com%2FWeactivity%2FScratchCard%3Faid%3D113986&amp;source=&amp;rnd=1192062685"></script>
     <style type="text/css"></style>
 </head>

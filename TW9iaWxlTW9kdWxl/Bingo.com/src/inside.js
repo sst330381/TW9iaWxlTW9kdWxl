@@ -10,7 +10,7 @@ var G = {
     data: {},
     domain: {
         w: 'weimob.com',
-        t: 'http://stc.weimob.com',
+        t: '',
         k: 'http://www.weimob.com/wm-xin-a'
     },
     set: {

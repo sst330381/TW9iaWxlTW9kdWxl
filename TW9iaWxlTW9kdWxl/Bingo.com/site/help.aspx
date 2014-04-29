@@ -14,17 +14,17 @@
     <script async="" src="//www.google-analytics.com/analytics.js"></script>
     <script async="" src="//www.google-analytics.com/analytics.js"></script>
     <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
-    <script src="http://stc.weimob.com/src/html5.js"></script>
-    <link rel="stylesheet" type="text/css" href="http://stc.weimob.com/css/bootstrap_min.css?2014-03-07-1"
+    <script src="/src/html5.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap_min.css?2014-03-07-1"
         media="all">
-    <link rel="stylesheet" type="text/css" href="http://stc.weimob.com/css/www/index1/index.css?2014-03-07-1"
+    <link rel="stylesheet" type="text/css" href="/css/www/index1/index.css?2014-03-07-1"
         media="all">
-    <link rel="stylesheet" type="text/css" href="http://stc.weimob.com/css/www/help/help.css?2014-03-07-1"
+    <link rel="stylesheet" type="text/css" href="/css/www/help/help.css?2014-03-07-1"
         media="all">
-    <script type="text/javascript" src="http://stc.weimob.com/src/jQuery.js?2014-03-07-1"></script>
-    <script type="text/javascript" src="http://stc.weimob.com/src/www/index1/weimob-index.js?2014-03-07-1"></script>
+    <script type="text/javascript" src="/src/jQuery.js?2014-03-07-1"></script>
+    <script type="text/javascript" src="/src/www/index1/weimob-index.js?2014-03-07-1"></script>
     <title>微盟（Weimob）—国内最大的微信公众服务平台</title>
-    <link rel="shortcut icon" href="http://stc.weimob.com/img/favicon.ico">
+    <link rel="shortcut icon" href="/img/favicon.ico">
     <style type="text/css"></style>
     <script charset="utf-8" src="http://trust.baidu.com/vcard/v.js?siteid=3049852&amp;url=http%3A%2F%2Fwww.weimob.com%2Fsite%2Fhelp&amp;source=&amp;rnd=1199050507"></script>
 </head>
@@ -579,7 +579,7 @@
         </div>
     </div>
     <div style="display: none;">
-        <script type="text/javascript" src="http://stc.weimob.com/src/www/index1/huishuo.js?v=2014-03-07-1"></script>
+        <script type="text/javascript" src="/src/www/index1/huishuo.js?v=2014-03-07-1"></script>
         <script src=" http://hm.baidu.com/h.js?d80741dd59de91e1846b2add2c0ad2a2" type="text/javascript"></script>
         <script src=" http://hm.baidu.com/h.js?e55ad03077c99390d9ff97a2e5ba5634" type="text/javascript"></script>
         <a href="http://tongji.baidu.com/hm-web/welcome/ico?s=e55ad03077c99390d9ff97a2e5ba5634"
