@@ -63,7 +63,7 @@
                 <div class="nav-item">
                     <a href="#" class="submenu-item features-icon">Features<em class="dropdown-item active-dropdown"></em></a>
                     <div class="submenu submenu-active">
-                        <a href="/type.aspx">Typography <em class="selected-item"></em></a><a href="/jquery.html">
+                        <a href="/type.aspx">Typography <em class="selected-item"></em></a><a href="/jquery.aspx">
                             jQuery <em class="unselected-item"></em></a>
                     </div>
                 </div>

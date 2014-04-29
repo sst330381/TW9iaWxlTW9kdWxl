@@ -25,9 +25,9 @@
         <em class="homepage-logo-sub">Creative Simplicity</em>
         <div class="homepage-navigation">
             <a class="home-icon" href="/homepage.aspx">Homepage</a> <a class="type-icon" href="/type.aspx">
-                Type</a> <a class="jquery-icon" href="/jquery.html">jQuery</a> <a href="/tile-gallery.html"
-                    class="gallery-icon">Gallery</a> <a class="folio-icon" href="/tile-folio.html">Portfolio</a>
-            <a class="mail-icon" href="/contact.html">Contact</a>
+                Type</a> <a class="jquery-icon" href="/jquery.aspx">jQuery</a> <a href="/gallery.aspx"
+                    class="gallery-icon">Gallery</a> <a class="folio-icon" href="/portfolio.aspx">Portfolio</a>
+            <a class="mail-icon" href="/contact.aspx">Contact</a>
             <div class="clear">
             </div>
         </div>
