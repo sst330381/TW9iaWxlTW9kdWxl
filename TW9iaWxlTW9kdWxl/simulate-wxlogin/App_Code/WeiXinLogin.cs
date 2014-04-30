@@ -12,7 +12,7 @@ using System.IO;
 /// </summary>
 public class WeiXinLogin
 {
-   
+
     /// <summary>
     /// MD5　32位加密
     /// </summary>
@@ -42,12 +42,12 @@ public class WeiXinLogin
         return sBuilder.ToString();
     }
 
-    public static bool ExecLogin(string name,string pass)
+    public static bool ExecLogin(string name, string pass)
     {
         bool result = false;
-        string password = GetMd5Str32(pass).ToUpper(); 
+        string password = GetMd5Str32(pass).ToUpper();
         string padata = "username=" + name + "&pwd=" + password + "&imgcode=&f=json";
-        string url = "http://mp.weixin.qq.com/cgi-bin/login?lang=zh_CN";//请求登录的URL
+        string url = "https://mp.weixin.qq.com/cgi-bin/login?lang=zh_CN";//请求登录的URL
         try
         {
             CookieContainer cc = new CookieContainer();//接收缓存
@@ -56,6 +56,8 @@ public class WeiXinLogin
             webRequest2.CookieContainer = cc;                                      //保存cookie  
             webRequest2.Method = "POST";                                          //请求方式是POST
             webRequest2.ContentType = "application/x-www-form-urlencoded";       //请求的内容格式为application/x-www-form-urlencoded
+            webRequest2.Referer = "https://mp.weixin.qq.com/";//request的referer地址，网络上的版本因为这句没写所以会出现invalid referrer
+
             webRequest2.ContentLength = byteArray.Length;
             Stream newStream = webRequest2.GetRequestStream();           //返回用于将数据写入 Internet 资源的 Stream。
             // Send the data.
@@ -64,13 +66,13 @@ public class WeiXinLogin
             HttpWebResponse response2 = (HttpWebResponse)webRequest2.GetResponse();
             StreamReader sr2 = new StreamReader(response2.GetResponseStream(), Encoding.Default);
             string text2 = sr2.ReadToEnd();
-
+            HttpContext.Current.Response.Write("text2:" + text2 + "<br/>");
             //此处用到了newtonsoft来序列化
             WeiXinRetInfo retinfo = Newtonsoft.Json.JsonConvert.DeserializeObject<WeiXinRetInfo>(text2);
             string token = string.Empty;
-            if (retinfo.ErrMsg.Length > 0)
+            if (retinfo.redirect_url != null && retinfo.redirect_url.Length > 0)
             {
-                token = retinfo.ErrMsg.Split(new char[] { '&' })[2].Split(new char[] { '=' })[1].ToString();//取得令牌
+                token = retinfo.redirect_url.Split(new char[] { '&' })[2].Split(new char[] { '=' })[1].ToString();//取得令牌
                 LoginInfo.LoginCookie = cc;
                 LoginInfo.CreateDate = DateTime.Now;
                 LoginInfo.Token = token;
@@ -79,8 +81,8 @@ public class WeiXinLogin
         }
         catch (Exception ex)
         {
-          
-            throw new Exception(ex.StackTrace);
+            HttpContext.Current.Response.Write("ex:" + ex.ToString());
+            //throw new Exception(ex.StackTrace);
         }
         return result;
     }

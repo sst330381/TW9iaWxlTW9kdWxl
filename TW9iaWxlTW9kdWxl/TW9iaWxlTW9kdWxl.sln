@@ -18,7 +18,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "restaurant", "restaurant\",
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "63142"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -39,7 +38,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Bingo.com", "Bingo.com\", "
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "63144"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -86,7 +84,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-signum", "m-signum\", "{1
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "63147"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -107,7 +104,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-breathe", "m-breathe\", "
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "63149"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -317,7 +313,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-axia", "m-axia\", "{D9742
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "63169"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -338,7 +333,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-woody", "m-woody\", "{649
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "63171"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -371,6 +365,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "file", "file", "{A7D16C62-FF3F-4725-975A-1C6F71D8B0B6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dbfile", "dbfile", "{F61902FF-4486-4992-80EE-4A20A0737025}"
+	ProjectSection(SolutionItems) = preProject
+		script_table.sql = script_table.sql
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{512EA0C6-9741-40C9-BCE1-446B41D6D7F3}"
 EndProject
@@ -391,7 +388,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "simulate-wxlogin", "simulat
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "63140"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject

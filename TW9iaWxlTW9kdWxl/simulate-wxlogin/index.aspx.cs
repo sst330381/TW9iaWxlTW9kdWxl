@@ -20,9 +20,11 @@ public partial class index : System.Web.UI.Page
 
         if (WeiXinLogin.ExecLogin(name, pass))
         {
-            Response.Write("登陆成功");
-            Response.Redirect("SendMessage.aspx");
-            
+            Response.Write("登陆成功<br/>");
+            Response.Redirect("info.aspx");
+            //Response.Write("WeiXinLogin.LoginInfo.Token:" + WeiXinLogin.LoginInfo.Token + "<br/>"
+            //    + "WeiXinLogin.LoginInfo.CreateDate" + WeiXinLogin.LoginInfo.CreateDate + "<br/>"
+            //    + "WeiXinLogin.LoginInfo.LoginCookie" + WeiXinLogin.LoginInfo.LoginCookie + "<br/>");
         }
         else
         {
