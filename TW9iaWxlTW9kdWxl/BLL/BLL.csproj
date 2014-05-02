@@ -43,6 +43,7 @@
     <Compile Include="BLLPubinfo.cs" />
     <Compile Include="BLLPubtype.cs" />
     <Compile Include="BLLUser.cs" />
+    <Compile Include="BLLWgw_slide.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

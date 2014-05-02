@@ -5,24 +5,19 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Keywords" content="微盟、微信营销、微信代运营、微信定制开发、微信托管、微网站、微商城、微营销">
-    <meta name="Description" content="微盟，国内最大的微信公众智能服务平台，微盟八大微体系：微菜单、微官网、微会员、微活动、微商城、微推送、微服务、微统计，企业微营销必备。">
+    <meta name="Keywords" content="VIP、微信营销、微信代运营、微信定制开发、微信托管、微网站、微商城、微营销">
+    <meta name="Description" content="VIP，国内最大的微信公众智能服务平台，VIP八大微体系：微菜单、微官网、微会员、微活动、微商城、微推送、微服务、微统计，企业微营销必备。">
     <link rel="shortcut icon" href="/img/favicon.ico?v=2014-03-07-1">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap_min.css?2014-03-07-1"
         media="all">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap_responsive_min.css?2014-03-07-1"
         media="all">
-    <link rel="stylesheet" type="text/css" href="/css/style.css?2014-03-07-1"
-        media="all">
-    <link rel="stylesheet" type="text/css" href="/css/themes.css?2014-03-07-1"
-        media="all">
+    <link rel="stylesheet" type="text/css" href="/css/style.css?2014-03-07-1" media="all">
+    <link rel="stylesheet" type="text/css" href="/css/themes.css?2014-03-07-1" media="all">
     <link rel="stylesheet" type="text/css" href="/css/todc_bootstrap.css?2014-03-07-1"
         media="all">
-    <link rel="stylesheet" type="text/css" href="/css/resource.css?2014-03-07-1"
-        media="all">
-    <link rel="stylesheet" type="text/css" href="/css/inside.css?2014-03-07-1"
-        media="all">
-    <script type="text/javascript" async="" src="http://tj.weimob.com/wtj.js?url=http%3A%2F%2Fwww.weimob.com%2Fmicrosite%2Faddslide%2Faid%2F113986"></script>
+    <link rel="stylesheet" type="text/css" href="/css/resource.css?2014-03-07-1" media="all">
+    <link rel="stylesheet" type="text/css" href="/css/inside.css?2014-03-07-1" media="all">
     <script type="text/javascript" src="/src/jQuery.js?2014-03-07-1"></script>
     <script type="text/javascript" src="/src/bootstrap_min.js?2014-03-07-1"></script>
     <style type="text/css">
@@ -36,7 +31,7 @@
     <script type="text/javascript" src="/src/plugins/validation/jquery_validate_methods.js?2014-03-07-1"></script>
     <script type="text/javascript" src="/src/resource.js?2014-03-07-1"></script>
     <script type="text/javascript" src="/src/inside.js?2014-03-07-1"></script>
-    <title>微盟（Weimob）—国内最大的微信公众服务平台</title>
+    <title>VIP（Weimob）—国内最大的微信公众服务平台</title>
     <!--[if IE 7]>
             <link href="/css/font_awesome_ie7.css?v=2014-03-07-1" rel="stylesheet" />
         <![endif]-->
@@ -46,15 +41,10 @@
     <!--[if lte IE 9]>
             <script src="/js/watermark.js?v=2014-03-07-1"></script>
         <![endif]-->
-    <script src="http://api.map.baidu.com/api?key=24ffad3855e675265336a4cfb46d32b4&amp;v=1.1&amp;services=true"
-        type="text/javascript"></script>
-    <script type="text/javascript" src="http://api.map.baidu.com/getscript?v=1.1&amp;ak=&amp;services=true&amp;t=20130716024058"></script>
-    <link rel="stylesheet" type="text/css" href="http://api.map.baidu.com/res/11/bmap.css">
     <script src="/templates/kindeditor/kindeditor-min.js?v=2014-03-07-1"></script>
     <script src="/templates/kindeditor/lang/zh_CN.js?v=2014-03-07-1"></script>
     <script src="/templates/kindeditor/kindeditor.config-upfile.js?v=2014-03-07-1"></script>
     <link href="/templates/kindeditor/themes/default/default.css?v=2014-03-07-1" rel="stylesheet">
-    <script charset="utf-8" src="http://trust.baidu.com/vcard/v.js?siteid=3049852&amp;url=http%3A%2F%2Fwww.weimob.com%2Fmicrosite%2Faddslide%2Faid%2F113986&amp;source=http%3A%2F%2Fwww.weimob.com%2Fwechat%2Findex%2Faid%2F113986&amp;rnd=1345170968"></script>
 </head>
 <body>
     <div id="main">
@@ -68,14 +58,14 @@
                                     <i class="icon-cog"></i>添加幻灯片</h3>
                             </div>
                         </div>
-                        <form action="/microsite/addslide/aid/113986/sid/0" method="post" class="form-horizontal form-validate"
-                        novalidate="novalidate">
+                        <form method="post" class="form-horizontal form-validate" novalidate="novalidate" runat="server">
                         <div class="box-content">
                             <div class="control-group">
                                 <label for="name" class="control-label">
                                     幻灯片名称：</label>
                                 <div class="controls">
-                                    <input type="text" id="name" name="name" value="" class="input-medium" data-rule-required="true">
+                                    <input type="text" id="txtname" name="name" value="" class="input-medium" data-rule-required="true"
+                                        runat="server">
                                     <span class="maroon">*</span><span class="help-inline"></span>
                                 </div>
                             </div>
@@ -83,8 +73,8 @@
                                 <label for="discription" class="control-label">
                                     幻灯片描述：</label>
                                 <div class="controls">
-                                    <textarea id="description" name="description" rows="2" class="input-xxlarge" data-rule-maxlength="20"
-                                        placeholder="最多20个字符"></textarea>
+                                    <textarea id="txtdescription" name="description" rows="2" class="input-xxlarge" data-rule-maxlength="20"
+                                        runat="server" placeholder="最多20个字符"></textarea>
                                     <span class="maroon">*</span><span class="help-inline"></span>
                                 </div>
                             </div>
@@ -92,18 +82,16 @@
                                 <label for="sort" class="control-label">
                                     显示顺序：</label>
                                 <div class="controls">
-                                    <input type="text" id="sort" name="sort" value="0" class="input-mini" data-rule-required="true"
-                                        data-rule-number="true">
+                                    <input type="text" id="txtsort" name="sort" value="0" class="input-mini" data-rule-required="true"
+                                        runat="server" data-rule-number="true">
                                 </div>
                             </div>
                             <div class="control-group">
                                 <label for="insertimage" class="control-label">
                                     幻灯片封面:</label>
                                 <div class="controls">
-                                    <img type="img" src="/img/template/lib/default-slide.jpg?=2014-03-07-1"
-                                        style="max-height: 50px;">
-                                    <input type="hidden" name="picurl" value="/img/template/lib/default-slide.jpg?=2014-03-07-1"
-                                        class="input-medium">
+                                    <img type="img" src="" style="max-height: 50px;" id="img" runat="server" />
+                                    <asp:HiddenField ID="hdpicurl" runat="server" />
                                     <a class="btn insertimage">选择幻灯片</a> <span class="help-inline">建议尺寸：宽640像素，高425像素</span>
                                 </div>
                             </div>
@@ -664,7 +652,6 @@
                 });
             }, false);
         </script>
-        <script src=" http://hm.baidu.com/h.js?d80741dd59de91e1846b2add2c0ad2a2" type="text/javascript"></script>
     </div>
     <div id="fallr-overlay">
     </div>

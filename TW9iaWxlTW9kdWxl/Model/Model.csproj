@@ -44,6 +44,10 @@
     <Compile Include="PubinfoEntity.cs" />
     <Compile Include="PubtypeEntity.cs" />
     <Compile Include="UserEntity.cs" />
+    <Compile Include="Wgw_listEntity.cs" />
+    <Compile Include="Wgw_menuEntity.cs" />
+    <Compile Include="Wgw_setEntity.cs" />
+    <Compile Include="Wgw_slideEntity.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

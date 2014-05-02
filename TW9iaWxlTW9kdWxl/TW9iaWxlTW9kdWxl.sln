@@ -18,12 +18,14 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "restaurant", "restaurant\",
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63142"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Bingo.com", "Bingo.com\", "{1CB0145B-0AC6-44C2-A963-7C13EE4BD0F5}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{512EA0C6-9741-40C9-BCE1-446B41D6D7F3}|BLL.dll;{F1867326-9536-4EA2-A3D7-81845955129D}|CommonLibrary.dll;{512E0BD3-FB97-4F2D-A449-E8DF1E689397}|DAL.dll;{2E0130AF-E5B4-4353-AC5B-6801DC38F8E2}|DBUtility.dll;{79FB0CFB-0E75-490D-8792-C01685E8B8CE}|Model.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/Bingo.com"
 		Debug.AspNetCompiler.PhysicalPath = "Bingo.com\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Bingo.com\"
@@ -84,6 +86,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-signum", "m-signum\", "{1
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63147"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -104,6 +107,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-breathe", "m-breathe\", "
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63149"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -187,7 +191,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-galaxy2", "m-galaxy2\", "
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "63157"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -208,7 +211,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-busi", "m-busi\", "{33BF7
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "63159"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -229,7 +231,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-busi2", "m-busi2\", "{435
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "63161"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -250,7 +251,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-busi3", "m-busi3\", "{81F
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "63163"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -271,7 +271,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-stickers", "m-stickers\",
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "63165"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -292,7 +291,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-playlist", "m-playlist\",
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "63167"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -313,6 +311,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "m-axia", "m-axia\", "{D9742
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63169"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject

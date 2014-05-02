@@ -43,6 +43,7 @@
     <Compile Include="DALPubinfo.cs" />
     <Compile Include="DALPubtype.cs" />
     <Compile Include="DALUser.cs" />
+    <Compile Include="DALWgw_slide.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

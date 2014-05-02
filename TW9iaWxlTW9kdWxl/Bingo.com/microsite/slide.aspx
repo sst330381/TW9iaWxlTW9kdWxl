@@ -12,14 +12,11 @@
         media="all">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap_responsive_min.css?2014-03-07-1"
         media="all">
-    <link rel="stylesheet" type="text/css" href="/css/style.css?2014-03-07-1"
-        media="all">
-    <link rel="stylesheet" type="text/css" href="/css/themes.css?2014-03-07-1"
-        media="all">
+    <link rel="stylesheet" type="text/css" href="/css/style.css?2014-03-07-1" media="all">
+    <link rel="stylesheet" type="text/css" href="/css/themes.css?2014-03-07-1" media="all">
     <link rel="stylesheet" type="text/css" href="/css/todc_bootstrap.css?2014-03-07-1"
         media="all">
-    <link rel="stylesheet" type="text/css" href="/css/inside.css?2014-03-07-1"
-        media="all">
+    <link rel="stylesheet" type="text/css" href="/css/inside.css?2014-03-07-1" media="all">
     <script type="text/javascript" async="" src="http://tj.weimob.com/wtj.js?url=http%3A%2F%2Fwww.weimob.com%2Fmicrosite%2Fslide%3Faid%3D113986"></script>
     <script type="text/javascript" src="/src/jQuery.js?2014-03-07-1"></script>
     <script type="text/javascript" src="/src/bootstrap_min.js?2014-03-07-1"></script>
@@ -123,56 +120,6 @@
                                     <tbody>
                                         <tr>
                                             <td>
-                                                八仙花
-                                            </td>
-                                            <td>
-                                                0
-                                            </td>
-                                            <td>
-                                                <img type="img" src="http://img.weimob.com/static/8c/e0/6d/image/20140417/20140417225106_12008.jpg"
-                                                    style="max-height: 50px;">
-                                            </td>
-                                            <td>
-                                                无
-                                            </td>
-                                            <td>
-                                                无
-                                            </td>
-                                            <td>
-                                                <span class="label label-satgreen">显示</span>
-                                            </td>
-                                            <td>
-                                                <a href="/microsite/addSlide/aid/113986/sid/102630" class="btn">编辑</a> <a href="javascript:G.ui.tips.confirm('确定要删除吗？', '/microsite/deleteslide/aid/113986/key/102630');"
-                                                    class="btn">删除</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                菊花
-                                            </td>
-                                            <td>
-                                                0
-                                            </td>
-                                            <td>
-                                                <img type="img" src="http://img.weimob.com/static/8c/e0/6d/image/20140417/20140417225420_60341.jpg"
-                                                    style="max-height: 50px;">
-                                            </td>
-                                            <td>
-                                                无
-                                            </td>
-                                            <td>
-                                                无
-                                            </td>
-                                            <td>
-                                                <span class="label label-satgreen">显示</span>
-                                            </td>
-                                            <td>
-                                                <a href="/microsite/addSlide/aid/113986/sid/102631" class="btn">编辑</a> <a href="javascript:G.ui.tips.confirm('确定要删除吗？', '/microsite/deleteslide/aid/113986/key/102631');"
-                                                    class="btn">删除</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
                                                 考拉
                                             </td>
                                             <td>
@@ -196,6 +143,35 @@
                                                     class="btn">删除</a>
                                             </td>
                                         </tr>
+                                        <asp:Repeater runat="server" ID="rptdata">
+                                            <ItemTemplate>
+                                                <tr>
+                                                    <td>
+                                                        <%--考拉--%>
+                                                    </td>
+                                                    <td>
+                                                        <%-- 0--%>
+                                                    </td>
+                                                    <td>
+                                                        <%--<img type="img" src="http://img.weimob.com/static/8c/e0/6d/image/20140417/20140417225534_91564.jpg"
+                                                            style="max-height: 50px;">--%>
+                                                    </td>
+                                                    <td>
+                                                        <%--无--%>
+                                                    </td>
+                                                    <td>
+                                                        <%--无--%>
+                                                    </td>
+                                                    <td>
+                                                        <%--<span class="label label-satgreen">显示</span>--%>
+                                                    </td>
+                                                    <td>
+                                                        <%--<a href="/microsite/addSlide/aid/113986/sid/102632" class="btn">编辑</a> <a href="javascript:G.ui.tips.confirm('确定要删除吗？', '/microsite/deleteslide/aid/113986/key/102632');"
+                                                            class="btn">删除</a>--%>
+                                                    </td>
+                                                </tr>
+                                            </ItemTemplate>
+                                        </asp:Repeater>
                                     </tbody>
                                 </table>
                                 <div class="dataTables_paginate paging_full_numbers">
