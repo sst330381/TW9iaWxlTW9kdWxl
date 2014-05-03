@@ -118,56 +118,31 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>
-                                                考拉
-                                            </td>
-                                            <td>
-                                                0
-                                            </td>
-                                            <td>
-                                                <img type="img" src="http://img.weimob.com/static/8c/e0/6d/image/20140417/20140417225534_91564.jpg"
-                                                    style="max-height: 50px;">
-                                            </td>
-                                            <td>
-                                                无
-                                            </td>
-                                            <td>
-                                                无
-                                            </td>
-                                            <td>
-                                                <span class="label label-satgreen">显示</span>
-                                            </td>
-                                            <td>
-                                                <a href="/microsite/addSlide/aid/113986/sid/102632" class="btn">编辑</a> <a href="javascript:G.ui.tips.confirm('确定要删除吗？', '/microsite/deleteslide/aid/113986/key/102632');"
-                                                    class="btn">删除</a>
-                                            </td>
-                                        </tr>
-                                        <asp:Repeater runat="server" ID="rptdata">
+                                        <asp:Repeater runat="server" ID="rptdata" OnItemDataBound="rptdata_ItemDataBound"
+                                            OnItemCommand="rptdata_ItemCommand">
                                             <ItemTemplate>
                                                 <tr>
                                                     <td>
-                                                        <%--考拉--%>
+                                                        <%#Eval("name")%>
                                                     </td>
                                                     <td>
-                                                        <%-- 0--%>
+                                                        <%#Eval("imgorder")%>
                                                     </td>
                                                     <td>
-                                                        <%--<img type="img" src="http://img.weimob.com/static/8c/e0/6d/image/20140417/20140417225534_91564.jpg"
-                                                            style="max-height: 50px;">--%>
+                                                        <asp:Image ID="imgsource" ImageUrl="" runat="server" Style="max-height: 50px;" />
                                                     </td>
                                                     <td>
-                                                        <%--无--%>
+                                                        <%#Eval("typeone") == "" ? "无" : Eval("typeone")%>
                                                     </td>
                                                     <td>
-                                                        <%--无--%>
+                                                        <%#Eval("typetwo")==""?"无":Eval("typetwo")%>
                                                     </td>
                                                     <td>
-                                                        <%--<span class="label label-satgreen">显示</span>--%>
+                                                        <%#((bool)Eval("isshow")) ? "<span class='label label-satgreen'>显示</span>" : "<span class='label label-satgreen'>隐藏</span>"%>
                                                     </td>
                                                     <td>
-                                                        <%--<a href="/microsite/addSlide/aid/113986/sid/102632" class="btn">编辑</a> <a href="javascript:G.ui.tips.confirm('确定要删除吗？', '/microsite/deleteslide/aid/113986/key/102632');"
-                                                            class="btn">删除</a>--%>
+                                                        <a href="/microsite/addSlide/aid/113986/sid/102632" class="btn">编辑</a> <a href="javascript:G.ui.tips.confirm('确定要删除吗？', '/microsite/deleteslide/aid/113986/key/102632');"
+                                                            class="btn">删除</a>
                                                     </td>
                                                 </tr>
                                             </ItemTemplate>
@@ -195,92 +170,5 @@
             }
         };
     </script>
-    <script type="text/javascript">
-        (function () {
-            var wtj = document.createElement('script'); wtj.type = 'text/javascript'; wtj.async = true;
-            wtj.src = 'http://tj.weimob.com/wtj.js?url=' + encodeURIComponent(location.href);
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wtj, s);
-        })();
-        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fd80741dd59de91e1846b2add2c0ad2a2' type='text/javascript'%3E%3C/script%3E"));
-        function weimobAfterShare(shareFromWechatId, sendFriendLink, shareToPlatform) {
-            var wmShare = document.createElement('script'); wmShare.type = 'text/javascript'; wmShare.async = true;
-            wmShare.src = 'http://http://tj.weimob.com/api-share.js?fromWechatId=' + shareFromWechatId + '&shareToPlatform=';
-            wmShare.src += shareToPlatform + '&pid=&sendFriendLink=' + encodeURIComponent(sendFriendLink);
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wmShare, s);
-        }
-
-        if (typeof (window.shareData) == 'undefined') {
-            var share_imgurl = "";
-            if ("" == share_imgurl) {
-                var shareImgObj = document.getElementsByClassName("shareImgUrl")[0];
-                if ('undefined' != typeof (shareImgObj)) {
-                    share_imgurl = shareImgObj.src;
-                }
-            }
-            window.shareData = {
-                "imgUrl": share_imgurl,
-                "timeLineLink": "http://www.weimob.com/microsite/slide?aid=113986",
-                "sendFriendLink": "http://www.weimob.com/microsite/slide?aid=113986",
-                "weiboLink": "http://www.weimob.com/microsite/slide?aid=113986",
-                "tTitle": document.title,
-                "tContent": document.title,
-                "fTitle": document.title,
-                "fContent": document.title,
-                "wContent": document.title
-            }
-        }
-        if ("" == window.shareData.imgUrl) {
-            var shareImgObj = document.getElementsByClassName("shareImgUrl")[0];
-            if ('undefined' != typeof (shareImgObj)) {
-                window.shareData.imgUrl = shareImgObj.src;
-            }
-        }
-        document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
-            // 发送给好友
-            WeixinJSBridge.on('menu:share:appmessage', function (argv) {
-                WeixinJSBridge.invoke('sendAppMessage', {
-                    "img_url": window.shareData.imgUrl,
-                    "img_width": "640",
-                    "img_height": "640",
-                    "link": window.shareData.sendFriendLink,
-                    "desc": window.shareData.fContent,
-                    "title": window.shareData.fTitle
-                }, function (res) {
-                    weimobAfterShare("", window.shareData.sendFriendLink, 'appmessage');
-                    _report('send_msg', res.err_msg);
-                })
-            });
-
-            // 分享到朋友圈
-            WeixinJSBridge.on('menu:share:timeline', function (argv) {
-                WeixinJSBridge.invoke('shareTimeline', {
-                    "img_url": window.shareData.imgUrl,
-                    "img_width": "640",
-                    "img_height": "640",
-                    "link": window.shareData.timeLineLink,
-                    "desc": window.shareData.tContent,
-                    "title": window.shareData.tTitle
-                }, function (res) {
-                    //weimobAfterShare("",window.shareData.timeLineLink,'timeline');
-                    _report('timeline', res.err_msg);
-                });
-            });
-
-            // 分享到微博
-            WeixinJSBridge.on('menu:share:weibo', function (argv) {
-                WeixinJSBridge.invoke('shareWeibo', {
-                    "content": window.shareData.wContent,
-                    "url": window.shareData.weiboLink
-                }, function (res) {
-                    weimobAfterShare("", window.shareData.weiboLink, 'weibo');
-                    _report('weibo', res.err_msg);
-                });
-            });
-        }, false);
-    </script>
-    <script src=" http://hm.baidu.com/h.js?d80741dd59de91e1846b2add2c0ad2a2" type="text/javascript"></script>
-    <div id="fallr-overlay">
-    </div>
 </body>
 </html>

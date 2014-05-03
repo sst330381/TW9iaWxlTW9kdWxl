@@ -12,14 +12,11 @@
         media="all">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap_responsive_min.css?2014-03-07-1"
         media="all">
-    <link rel="stylesheet" type="text/css" href="/css/style.css?2014-03-07-1"
-        media="all">
-    <link rel="stylesheet" type="text/css" href="/css/themes.css?2014-03-07-1"
-        media="all">
+    <link rel="stylesheet" type="text/css" href="/css/style.css?2014-03-07-1" media="all">
+    <link rel="stylesheet" type="text/css" href="/css/themes.css?2014-03-07-1" media="all">
     <link rel="stylesheet" type="text/css" href="/css/todc_bootstrap.css?2014-03-07-1"
         media="all">
-    <link rel="stylesheet" type="text/css" href="/css/inside.css?2014-03-07-1"
-        media="all">
+    <link rel="stylesheet" type="text/css" href="/css/inside.css?2014-03-07-1" media="all">
     <script type="text/javascript" async="" src="http://tj.weimob.com/wtj.js?url=http%3A%2F%2Fwww.weimob.com%2Fmicrosite%2Fclass%3Faid%3D113986"></script>
     <script type="text/javascript" src="/src/jQuery.js?2014-03-07-1"></script>
     <script type="text/javascript" src="/src/bootstrap_min.js?2014-03-07-1"></script>
@@ -123,78 +120,35 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>
-                                                最新活动
-                                            </td>
-                                            <td>
-                                                <i class="icon-smile"></i>
-                                            </td>
-                                            <td>
-                                                <span class="label label-satgreen">显示</span>
-                                            </td>
-                                            <td>
-                                                0
-                                            </td>
-                                            <td>
-                                                图文
-                                            </td>
-                                            <td>
-                                                图文列表
-                                            </td>
-                                            <td>
-                                                <a href="/microsite/addclass/aid/113986/cid/369548" class="btn">编辑</a><a href="javascript:G.ui.tips.confirm('确定要删除吗？', '/microsite/deleteclass/aid/113986/key/369548');"
-                                                    class="btn">删除</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                小编推荐
-                                            </td>
-                                            <td>
-                                                <i class="icon-hand-up"></i>
-                                            </td>
-                                            <td>
-                                                <span class="label label-satgreen">显示</span>
-                                            </td>
-                                            <td>
-                                                0
-                                            </td>
-                                            <td>
-                                                图文
-                                            </td>
-                                            <td>
-                                                图文列表
-                                            </td>
-                                            <td>
-                                                <a href="/microsite/addclass/aid/113986/cid/369549" class="btn">编辑</a><a href="javascript:G.ui.tips.confirm('确定要删除吗？', '/microsite/deleteclass/aid/113986/key/369549');"
-                                                    class="btn">删除</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                自助查询
-                                            </td>
-                                            <td>
-                                                <i class="icon-search"></i>
-                                            </td>
-                                            <td>
-                                                <span class="label label-satgreen">显示</span>
-                                            </td>
-                                            <td>
-                                                0
-                                            </td>
-                                            <td>
-                                                图文
-                                            </td>
-                                            <td>
-                                                图文列表
-                                            </td>
-                                            <td>
-                                                <a href="/microsite/addclass/aid/113986/cid/369550" class="btn">编辑</a><a href="javascript:G.ui.tips.confirm('确定要删除吗？', '/microsite/deleteclass/aid/113986/key/369550');"
-                                                    class="btn">删除</a>
-                                            </td>
-                                        </tr>
+                                        <asp:Repeater runat="server" ID="rptdata" OnItemDataBound="rptdata_ItemDataBound"
+                                            OnItemCommand="rptdata_ItemCommand">
+                                            <ItemTemplate>
+                                                <tr>
+                                                    <td>
+                                                        <%#Eval("listname") %>
+                                                    </td>
+                                                    <td>
+                                                        <i class="icon-smile"></i>
+                                                    </td>
+                                                    <td>
+                                                        <%#((bool)Eval("isshow")) ? "<span class='label label-satgreen'>显示</span>" : "<span class='label label-satgreen'>隐藏</span>"%>
+                                                    </td>
+                                                    <td>
+                                                        <%#Eval("listorder")%>
+                                                    </td>
+                                                    <td>
+                                                        <%#Eval("typeone") %>
+                                                    </td>
+                                                    <td>
+                                                        <%#Eval("typetwo") %>
+                                                    </td>
+                                                    <td>
+                                                        <a href="/microsite/addclass/aid/113986/cid/369548" class="btn">编辑</a><a href="javascript:G.ui.tips.confirm('确定要删除吗？', '/microsite/deleteclass/aid/113986/key/369548');"
+                                                            class="btn">删除</a>
+                                                    </td>
+                                                </tr>
+                                            </ItemTemplate>
+                                        </asp:Repeater>
                                     </tbody>
                                 </table>
                             </div>

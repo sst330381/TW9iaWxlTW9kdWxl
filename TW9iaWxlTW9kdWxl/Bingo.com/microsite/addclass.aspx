@@ -12,16 +12,12 @@
         media="all">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap_responsive_min.css?2014-03-07-1"
         media="all">
-    <link rel="stylesheet" type="text/css" href="/css/style.css?2014-03-07-1"
-        media="all">
-    <link rel="stylesheet" type="text/css" href="/css/themes.css?2014-03-07-1"
-        media="all">
+    <link rel="stylesheet" type="text/css" href="/css/style.css?2014-03-07-1" media="all">
+    <link rel="stylesheet" type="text/css" href="/css/themes.css?2014-03-07-1" media="all">
     <link rel="stylesheet" type="text/css" href="/css/todc_bootstrap.css?2014-03-07-1"
         media="all">
-    <link rel="stylesheet" type="text/css" href="/css/inside.css?2014-03-07-1"
-        media="all">
-    <link rel="stylesheet" type="text/css" href="/css/resource.css?2014-03-07-1"
-        media="all">
+    <link rel="stylesheet" type="text/css" href="/css/inside.css?2014-03-07-1" media="all">
+    <link rel="stylesheet" type="text/css" href="/css/resource.css?2014-03-07-1" media="all">
     <script type="text/javascript" async="" src="http://tj.weimob.com/wtj.js?url=http%3A%2F%2Fwww.weimob.com%2Fmicrosite%2Faddclass%2Faid%2F113986%2Fcid%2F369548"></script>
     <script type="text/javascript" src="/src/jQuery.js?2014-03-07-1"></script>
     <script type="text/javascript" src="/src/bootstrap_min.js?2014-03-07-1"></script>
@@ -46,21 +42,12 @@
     <!--[if lte IE 9]>
             <script src="/js/watermark.js?v=2014-03-07-1"></script>
         <![endif]-->
-    <script src="http://api.map.baidu.com/api?key=24ffad3855e675265336a4cfb46d32b4&amp;v=1.1&amp;services=true"
-        type="text/javascript"></script>
-    <script type="text/javascript" src="http://api.map.baidu.com/getscript?v=1.1&amp;ak=&amp;services=true&amp;t=20130716024058"></script>
-    <link rel="stylesheet" type="text/css" href="http://api.map.baidu.com/res/11/bmap.css">
-    <script src="/templates/kindeditor/kindeditor-min.js?v=2014-03-07-1"></script>
-    <script src="/templates/kindeditor/lang/zh_CN.js?v=2014-03-07-1"></script>
-    <script src="/templates/kindeditor/kindeditor.config-upfile.js?v=2014-03-07-1"></script>
-    <link href="/templates/kindeditor/themes/default/default.css?v=2014-03-07-1" rel="stylesheet">
     <style>
         option
         {
             padding: 5px;
         }
     </style>
-    <script charset="utf-8" src="http://trust.baidu.com/vcard/v.js?siteid=3049852&amp;url=http%3A%2F%2Fwww.weimob.com%2Fmicrosite%2Faddclass%2Faid%2F113986%2Fcid%2F369548&amp;source=http%3A%2F%2Fwww.weimob.com%2Fwechat%2Findex%2Faid%2F113986&amp;rnd=683480194"></script>
 </head>
 <body>
     <div id="main">
@@ -81,8 +68,8 @@
                                 <label for="classname" class="control-label">
                                     分类名称：</label>
                                 <div class="controls">
-                                    <input type="text" id="classname" name="classname" value="最新活动" class="input-medium"
-                                        data-rule-required="true">
+                                    <input type="text" id="txtclassname" name="classname" value="最新活动" class="input-medium"
+                                        runat="server" data-rule-required="true">
                                     <span class="maroon">*</span><span class="help-inline"></span>
                                 </div>
                             </div>
@@ -90,7 +77,8 @@
                                 <label for="description" class="control-label">
                                     分类描述：</label>
                                 <div class="controls">
-                                    <input type="text" id="description" name="description" value="最新活动" class="input-medium">
+                                    <input type="text" id="txtdescription" name="description" value="最新活动" class="input-medium"
+                                        runat="server">
                                     <span class="maroon"></span><span class="help-inline"></span>
                                 </div>
                             </div>
@@ -98,30 +86,24 @@
                                 <label for="category_id" class="control-label">
                                     所属分类：</label>
                                 <div class="controls">
-                                    <select id="category_id" name="category_id" class="input-medium valid">
-                                        <option value="0">根分类</option>
-                                        <option value="369548" disabled="disabled">&nbsp;&nbsp;&nbsp;&nbsp;最新活动</option>
-                                        <option value="369549">&nbsp;&nbsp;&nbsp;&nbsp;小编推荐</option>
-                                        <option value="369550">&nbsp;&nbsp;&nbsp;&nbsp;自助查询</option>
-                                    </select>
+                                    <asp:DropDownList runat="server" ID="ddlclass" class="input-medium valid">
+                                    </asp:DropDownList>
                                 </div>
                             </div>
                             <div class="control-group">
                                 <label for="sort" class="control-label">
                                     显示顺序：</label>
                                 <div class="controls">
-                                    <input type="text" id="sort" name="sort" value="0" class="input-mini" data-rule-required="true"
-                                        data-rule-number="true">
+                                    <input type="text" id="txtsort" name="sort" value="0" class="input-mini" data-rule-required="true"
+                                        runat="server" data-rule-number="true">
                                 </div>
                             </div>
                             <div class="control-group">
                                 <label for="insertimage" class="control-label">
                                     分类封面:</label>
                                 <div class="controls">
-                                    <img type="img" src="//img/template/lib/home-300200.jpg?v=2014-03-07-1?=2014-03-07-1"
-                                        style="max-height: 50px;">
-                                    <input type="hidden" name="picurl" value="//img/template/lib/home-300200.jpg?v=2014-03-07-1?=2014-03-07-1"
-                                        class="input-medium">
+                                    <asp:Image ImageUrl="imageurl" runat="server" Style="max-height: 50px;" />
+                                    <asp:HiddenField runat="server" ID="hdimg" />
                                     <a class="btn insertimage">选择封面</a>
                                 </div>
                             </div>

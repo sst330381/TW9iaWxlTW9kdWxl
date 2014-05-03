@@ -68,7 +68,7 @@
                                     是否显示：</label>
                                 <div class="controls">
                                     <label class="radio inline">
-                                        <input type="radio" value="1" name="is_show" checked="checked">显示</label>
+                                        <input id="ckisshow" type="radio" value="1" name="is_show" checked="true" runat="server" />显示</label>
                                     <label class="radio inline">
                                         <input type="radio" value="0" name="is_show">隐藏</label>
                                 </div>
@@ -78,26 +78,28 @@
                                     <label for="type" class="control-label">
                                         类型：</label>
                                     <div class="controls">
+                                        <asp:DropDownList ID="ddltypeone" runat="server" class="input-medium">
+                                            <asp:ListItem Text="选择类型" Value="" />
+                                            <asp:ListItem Text="图文" Value="article" />
+                                            <asp:ListItem Text="链接" Value="link" />
+                                            <asp:ListItem Text="电话" Value="tel" />
+                                            <asp:ListItem Text="导航" Value="map" />
+                                            <asp:ListItem Text="活动" Value="activity" />
+                                            <asp:ListItem Text="业务模块" Value="business" />
+                                            <asp:ListItem Text="微汽车" Value="car" />
+                                            <asp:ListItem Text="微房产" Value="estate" />
+                                            <asp:ListItem Text="微餐饮" Value="food" />
+                                            <asp:ListItem Text="微商城" Value="shop" />
+                                            <asp:ListItem Text="微团购" Value="tg" />
+                                            <asp:ListItem Text="微客服" Value="kefu" />
+                                            <asp:ListItem Text="微社区" Value="shequ" />
+                                        </asp:DropDownList>
                                         <select id="type" name="type" class="input-medium">
-                                            <option value="">选择类型</option>
-                                            <option value="article">图文</option>
-                                            <option value="link">链接</option>
-                                            <option value="tel">电话</option>
-                                            <option value="map">导航</option>
-                                            <option value="activity">活动</option>
-                                            <option value="business">业务模块</option>
-                                            <option value="car">微汽车</option>
-                                            <option value="estate">微房产</option>
-                                            <option value="food">微餐饮</option>
-                                            <option value="shop">微商城</option>
-                                            <option value="tg">微团购</option>
-                                            <option value="kefu">微客服</option>
-                                            <option value="shequ">微社区</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="form-actions">
-                                    <asp:Button Text="保存" runat="server" class="btn btn-primary" />
+                                    <asp:Button ID="btnSave" Text="保存" runat="server" class="btn btn-primary" OnClick="btnSave_Click" />
                                     <button type="button" class="btn" onclick="window.history.go(-1);">
                                         取消</button>
                                 </div>
