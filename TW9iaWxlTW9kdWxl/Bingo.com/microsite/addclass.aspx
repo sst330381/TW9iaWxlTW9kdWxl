@@ -61,8 +61,7 @@
                                     <i class="icon-cog"></i>修改分类</h3>
                             </div>
                         </div>
-                        <form action="/microsite/addclass/aid/113986/cid/369548" method="post" class="form-horizontal form-validate"
-                        novalidate="novalidate">
+                        <form method="post" class="form-horizontal form-validate" runat="server">
                         <div class="box-content">
                             <div class="control-group">
                                 <label for="classname" class="control-label">

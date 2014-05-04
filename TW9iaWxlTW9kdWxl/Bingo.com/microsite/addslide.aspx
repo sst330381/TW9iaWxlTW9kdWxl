@@ -12,6 +12,20 @@
     <link rel="stylesheet" type="text/css" href="/css/todc_bootstrap.css?2014-03-07-1"
         media="all">
     <script type="text/javascript" src="/src/jQuery.js?2014-03-07-1"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#ckisshow").click(function () {
+                alert("1");
+                $("#<%=ckisshow.ClientID %>").attr("checked", "checked");
+                $("#<%=cknotshow.ClientID %>").attr("checked", "");
+            });
+            $("#cknotshow").click(function () {
+                alert("2");
+                $("#<%=ckisshow.ClientID %>").attr("checked", "");
+                $("#<%=cknotshow.ClientID %>").attr("checked", "checked");
+            });
+        });
+    </script>
 </head>
 <body>
     <div id="main">
@@ -70,7 +84,7 @@
                                     <label class="radio inline">
                                         <input id="ckisshow" type="radio" value="1" name="is_show" checked="true" runat="server" />显示</label>
                                     <label class="radio inline">
-                                        <input id="cknotshow" type="radio" value="0" name="not_show" runat="server" />隐藏</label>
+                                        <input id="cknotshow" type="radio" value="0" name="not_show" checked="false" runat="server" />隐藏</label>
                                 </div>
                             </div>
                             <div id="res_block">
