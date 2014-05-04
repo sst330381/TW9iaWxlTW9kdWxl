@@ -141,8 +141,8 @@
                                                         <%#((bool)Eval("isshow")) ? "<span class='label label-satgreen'>显示</span>" : "<span class='label label-satgreen'>隐藏</span>"%>
                                                     </td>
                                                     <td>
-                                                        <a href="/microsite/addSlide/aid/113986/sid/102632" class="btn">编辑</a> <a href="javascript:G.ui.tips.confirm('确定要删除吗？', '/microsite/deleteslide/aid/113986/key/102632');"
-                                                            class="btn">删除</a>
+                                                        <%#"<a href='/microsite/addSlide/aid/113986/sid/"+Eval("id").ToString() +"' class='btn'>编辑</a> "%>
+                                                        <%#"<a href='javascript:G.ui.tips.confirm(\"确定要删除吗？\", \"/microsite/deleteslide/aid/113986/key/"+Eval("id")+"\");' class='btn'>删除</a>"%>
                                                     </td>
                                                 </tr>
                                             </ItemTemplate>

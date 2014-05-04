@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DALCom_busitype.cs" />
     <Compile Include="DALPubinfo.cs" />
     <Compile Include="DALPubtype.cs" />
     <Compile Include="DALUser.cs" />

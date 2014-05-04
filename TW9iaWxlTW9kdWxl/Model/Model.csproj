@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Com_busitypeEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PubinfoEntity.cs" />
     <Compile Include="PubtypeEntity.cs" />

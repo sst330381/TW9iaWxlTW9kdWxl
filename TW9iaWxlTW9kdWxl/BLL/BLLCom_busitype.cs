@@ -6,12 +6,12 @@ using DAL;
 using Model;
 namespace BLL
 {
-    //Wgw_slide
-    public partial class BLLWgw_slide
+    //Com_busitype
+    public partial class BLLCom_busitype
     {
 
-        private readonly DALWgw_slide dal = new DALWgw_slide();
-        public BLLWgw_slide()
+        private readonly DALCom_busitype dal = new DALCom_busitype();
+        public BLLCom_busitype()
         { }
 
         #region   自动代码
@@ -26,7 +26,7 @@ namespace BLL
         /// <summary>
         /// 增加一条数据
         /// </summary>
-        public int Add(Wgw_slideEntity model)
+        public int Add(Com_busitypeEntity model)
         {
             return dal.Add(model);
 
@@ -35,7 +35,7 @@ namespace BLL
         /// <summary>
         /// 更新一条数据
         /// </summary>
-        public bool Update(Wgw_slideEntity model)
+        public bool Update(Com_busitypeEntity model)
         {
             return dal.Update(model);
         }
@@ -50,6 +50,7 @@ namespace BLL
         }
         public bool Delete(string strWhere)
         {
+
             return dal.Delete(strWhere);
         }
         /// <summary>
@@ -63,7 +64,7 @@ namespace BLL
         /// <summary>
         /// 得到一个对象实体
         /// </summary>
-        public Wgw_slideEntity GetModel(int id)
+        public Com_busitypeEntity GetModel(int id)
         {
 
             return dal.GetModel(id);
@@ -115,7 +116,7 @@ namespace BLL
         /// <summary>
         /// 获得数据列表
         /// </summary>
-        public List<Wgw_slideEntity> GetModelList(string strWhere)
+        public List<Com_busitypeEntity> GetModelList(string strWhere)
         {
             DataTable dt = dal.GetList4Table(strWhere);
             return DataTableToList(dt);
@@ -123,48 +124,29 @@ namespace BLL
         /// <summary>
         /// 获得数据列表
         /// </summary>
-        public List<Wgw_slideEntity> DataTableToList(DataTable dt)
+        public List<Com_busitypeEntity> DataTableToList(DataTable dt)
         {
-            List<Wgw_slideEntity> modelList = new List<Wgw_slideEntity>();
+            List<Com_busitypeEntity> modelList = new List<Com_busitypeEntity>();
             int rowsCount = dt.Rows.Count;
             int result;
             if (rowsCount > 0)
             {
-                Wgw_slideEntity model;
+                Com_busitypeEntity model;
                 for (int n = 0; n < rowsCount; n++)
                 {
-                    model = new Wgw_slideEntity();
+                    model = new Com_busitypeEntity();
                     if (dt.Rows[n]["id"].ToString() != "")
                     {
                         model.id = int.Parse(dt.Rows[n]["id"].ToString());
                     }
                     model.id = int.TryParse(dt.Rows[n]["id"].ToString(), out result) ? result : 0;
-                    if (dt.Rows[n]["clientid"].ToString() != "")
+                    if (dt.Rows[n]["pid"].ToString() != "")
                     {
-                        model.clientid = int.Parse(dt.Rows[n]["clientid"].ToString());
+                        model.pid = int.Parse(dt.Rows[n]["pid"].ToString());
                     }
-                    model.clientid = int.TryParse(dt.Rows[n]["clientid"].ToString(), out result) ? result : 0;
+                    model.pid = int.TryParse(dt.Rows[n]["pid"].ToString(), out result) ? result : 0;
                     model.name = dt.Rows[n]["name"].ToString();
-                    model.imgdesc = dt.Rows[n]["imgdesc"].ToString();
-                    if (dt.Rows[n]["imgorder"].ToString() != "")
-                    {
-                        model.imgorder = int.Parse(dt.Rows[n]["imgorder"].ToString());
-                    }
-                    model.imgorder = int.TryParse(dt.Rows[n]["imgorder"].ToString(), out result) ? result : 0;
-                    model.source = dt.Rows[n]["source"].ToString();
-                    if (dt.Rows[n]["isshow"].ToString() != "")
-                    {
-                        if ((dt.Rows[n]["isshow"].ToString() == "1") || (dt.Rows[n]["isshow"].ToString().ToLower() == "true"))
-                        {
-                            model.isshow = true;
-                        }
-                        else
-                        {
-                            model.isshow = false;
-                        }
-                    }
-                    model.typeone = dt.Rows[n]["typeone"].ToString();
-                    model.typetwo = dt.Rows[n]["typetwo"].ToString();
+                    model.value = dt.Rows[n]["value"].ToString();
 
 
                     modelList.Add(model);
@@ -190,7 +172,7 @@ namespace BLL
         /// <param name="pageSize"></param>
         /// <param name="model"></param>
         /// <returns></returns>
-        public DataTable GetPage(int pageIndex, int pageSize, Wgw_slideEntity model, out int count)
+        public DataTable GetPage(int pageIndex, int pageSize, Com_busitypeEntity model, out int count)
         {
             return dal.GetPage(pageIndex, pageSize, model, out count);
         }

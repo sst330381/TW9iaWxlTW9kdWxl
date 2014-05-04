@@ -56,6 +56,11 @@
             "~/wechat/addnews.aspx", //映射到的aspx页面路径
             false, //是否需要检查用户权限addnews/
             new RouteValueDictionary { { "id", "1" } });
+        routes.MapPageRoute("microsite_slide", //给这个UrlRouting规则起一个名字
+            "microsite/slide", //希望的友好Url地址格式
+            "~/microsite/slide.aspx", //映射到的aspx页面路径
+            false, //是否需要检查用户权限addnews/
+            new RouteValueDictionary { { "id", "1" } });
         routes.MapPageRoute("microsite_addslide", //给这个UrlRouting规则起一个名字
             "microsite/addslide/aid/{id}", //希望的友好Url地址格式
             "~/microsite/addslide.aspx", //映射到的aspx页面路径
@@ -64,6 +69,11 @@
         routes.MapPageRoute("microsite_editslide", //给这个UrlRouting规则起一个名字
             "microsite/addslide/aid/{aid}/sid/{sid}", //希望的友好Url地址格式
             "~/microsite/addslide.aspx", //映射到的aspx页面路径
+            false, //是否需要检查用户权限addnews/
+            new RouteValueDictionary { { "aid", "1" }, { "sid", "1" } });
+        routes.MapPageRoute("microsite_deleteslide", //给这个UrlRouting规则起一个名字
+            "microsite/deleteslide/aid/{aid}/key/{sid}", //希望的友好Url地址格式
+            "~/microsite/deleteslide.aspx", //映射到的aspx页面路径
             false, //是否需要检查用户权限addnews/
             new RouteValueDictionary { { "aid", "1" }, { "sid", "1" } });
         routes.MapPageRoute("microsite_addclass", //给这个UrlRouting规则起一个名字

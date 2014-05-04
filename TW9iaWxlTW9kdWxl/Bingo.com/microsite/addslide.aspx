@@ -70,7 +70,7 @@
                                     <label class="radio inline">
                                         <input id="ckisshow" type="radio" value="1" name="is_show" checked="true" runat="server" />显示</label>
                                     <label class="radio inline">
-                                        <input type="radio" value="0" name="is_show">隐藏</label>
+                                        <input id="cknotshow" type="radio" value="0" name="not_show" runat="server" />隐藏</label>
                                 </div>
                             </div>
                             <div id="res_block">
@@ -79,20 +79,6 @@
                                         类型：</label>
                                     <div class="controls">
                                         <asp:DropDownList ID="ddltypeone" runat="server" class="input-medium">
-                                            <asp:ListItem Text="选择类型" Value="" />
-                                            <asp:ListItem Text="图文" Value="article" />
-                                            <asp:ListItem Text="链接" Value="link" />
-                                            <asp:ListItem Text="电话" Value="tel" />
-                                            <asp:ListItem Text="导航" Value="map" />
-                                            <asp:ListItem Text="活动" Value="activity" />
-                                            <asp:ListItem Text="业务模块" Value="business" />
-                                            <asp:ListItem Text="微汽车" Value="car" />
-                                            <asp:ListItem Text="微房产" Value="estate" />
-                                            <asp:ListItem Text="微餐饮" Value="food" />
-                                            <asp:ListItem Text="微商城" Value="shop" />
-                                            <asp:ListItem Text="微团购" Value="tg" />
-                                            <asp:ListItem Text="微客服" Value="kefu" />
-                                            <asp:ListItem Text="微社区" Value="shequ" />
                                         </asp:DropDownList>
                                         <select id="type" name="type" class="input-medium">
                                         </select>
