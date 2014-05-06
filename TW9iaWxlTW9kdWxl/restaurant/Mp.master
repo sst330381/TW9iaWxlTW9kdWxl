@@ -13,7 +13,7 @@
 <body>
     <div id="container" class="page-home">
         <header>
-            <a href="/index.aspx" id="logo">Meat &amp; Recipes</a>
+            <a href="/index.aspx" id="logo">美食天下</a>
         </header>
         <form id="form1" runat="server">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

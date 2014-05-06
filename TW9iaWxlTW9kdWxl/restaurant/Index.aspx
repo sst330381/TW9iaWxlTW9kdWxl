@@ -7,39 +7,40 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <aside id="top-block">
         <figure>
-            <img src="images/meat-food-1x320.jpg" width="320" height="200" alt="Fresh Meat every Day">
-            <figcaption class="separator">Fresh meat every day</figcaption>
+            <img src="images/thumb.jpg" width="320" height="200" alt="Fresh Meat every Day">
+            <figcaption class="separator">重拾旧时光，想起妈妈的味道</figcaption>
         </figure>
     </aside>
     <!--/#top-block-->
     <article class="wrapper">
-        <h1>
-            MEAT&amp;RECIPES RESTAURANT</h1>
+        <h1 style="font-size:20px">
+            灶丰年间</h1>
         <div class="description">
-            <p>
-                At Meat&amp;Recipes restaurant, we take pride in serving our guests mouth watering
-                World dishes, We use only the best, highest quality ingredients to bring the freshest
-                quality food experience to you.</p>
+            <p style="font-size:14px">
+                店面虽“不起眼”，里头却别有洞天，装修“够土”，“够特色”。
+                进门的“大灶头”，墙上的“老式年画”，“青花瓷餐具”和“牛皮纸菜单”，唤起了“童年的回忆”。
+                更绝的是，服务员穿着“蓝条海军衫搭配红领巾”，“超酷”。
+                菜品都是“典型”的农家风味，神仙鸡、农家土豆腐、鸡爪点击率“很高”，常被“一抢而空”，去晚了可就吃不到了。 </p>
         </div>
         <!--/.description-->
     </article>
     <!--/.wrapper-->
     <aside>
         <div class="separator">
-            Some of our best dishes</div>
+            招牌美食</div>
         <div class="wrapper clearfix" id="home-gal-wall">
             <div class="col fleft alright">
                 <div class="box">
                     <figure>
-                        <figcaption>Sicilian's Spaghetti</figcaption>
-                        <img src="images/pasta-food-1x136.jpg" width="136" height="91" alt="Sicilian's Spaghetti">
+                        <figcaption style="text-align:center">冬瓜虾球</figcaption>
+                        <img src="images/meat-food1.jpg" width="136" height="91" alt="Sicilian's Spaghetti">
                     </figure>
                 </div>
                 <!--/.box-->
                 <div class="box">
                     <figure>
-                        <figcaption>Fresh&amp;Hot Meat</figcaption>
-                        <img src="images/meat-food-3x136.jpg" width="136" height="91" alt="Fresh Meat">
+                        <figcaption style="text-align:center">姜葱蒸鲜鲍</figcaption>
+                        <img src="images/meat-food2.jpg" width="136" height="91" alt="Fresh Meat">
                     </figure>
                 </div>
                 <!--/.box-->
@@ -48,15 +49,15 @@
             <div class="col fright alleft">
                 <div class="box">
                     <figure>
-                        <img src="images/pasta-food-2x136.jpg" width="136" height="91" alt="Pasta and Olives">
-                        <figcaption>Pasta with olives</figcaption>
+                        <img src="images/meat-food3.jpg" width="136" height="91" alt="Pasta and Olives">
+                        <figcaption style="text-align:center">自制皮蛋</figcaption>
                     </figure>
                 </div>
                 <!--/.box-->
                 <div class="box">
                     <figure>
-                        <img src="images/meat-food-2x136.jpg" width="136" height="91" alt="Traditional Steak">
-                        <figcaption>Traditional Steak</figcaption>
+                        <img src="images/meat-food4.jpg" width="136" height="91" alt="Traditional Steak">
+                        <figcaption style="text-align:center">鸽蛋美颜汤</figcaption>
                     </figure>
                 </div>
                 <!--/.box-->
