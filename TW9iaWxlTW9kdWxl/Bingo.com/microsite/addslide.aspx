@@ -1,5 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="addslide.aspx.cs" Inherits="microsite_addslideNew" %>
 
+<%@ Register Src="~/comon/busitypeControl.ascx" TagName="UserControl" TagPrefix="BSContol" %>
+<%@ Register Src="~/comon/ishowControl.ascx" TagName="UserControl" TagPrefix="ISControl" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -12,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="/css/todc_bootstrap.css?2014-03-07-1"
         media="all">
     <script type="text/javascript" src="/src/jQuery.js?2014-03-07-1"></script>
-    <script type="text/javascript">
+    <%--    <script type="text/javascript">
         $(function () {
             $("#ckisshow").click(function () {
                 alert("1");
@@ -25,7 +27,7 @@
                 $("#<%=cknotshow.ClientID %>").attr("checked", "checked");
             });
         });
-    </script>
+    </script>--%>
 </head>
 <body>
     <div id="main">
@@ -77,7 +79,7 @@
                                     <a class="btn insertimage">选择幻灯片</a> <span class="help-inline">建议尺寸：宽640像素，高425像素</span>
                                 </div>
                             </div>
-                            <div class="control-group">
+                            <%--<div class="control-group">
                                 <label class="control-label">
                                     是否显示：</label>
                                 <div class="controls">
@@ -86,9 +88,10 @@
                                     <label class="radio inline">
                                         <input id="cknotshow" type="radio" value="0" name="not_show" checked="false" runat="server" />隐藏</label>
                                 </div>
-                            </div>
+                            </div>--%>
+                            <ISControl:UserControl ID="iscontrol1" runat="server" />
                             <div id="res_block">
-                                <div class="control-group">
+                                <%--<div class="control-group">
                                     <label for="type" class="control-label">
                                         类型：</label>
                                     <div class="controls">
@@ -97,7 +100,8 @@
                                         <select id="type" name="type" class="input-medium">
                                         </select>
                                     </div>
-                                </div>
+                                </div>--%>
+                                <BSContol:UserControl ID="bscontrol1" runat="server" />
                                 <div class="form-actions">
                                     <asp:Button ID="btnSave" Text="保存" runat="server" class="btn btn-primary" OnClick="btnSave_Click" />
                                     <button type="button" class="btn" onclick="window.history.go(-1);">
