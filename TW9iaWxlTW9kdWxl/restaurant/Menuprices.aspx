@@ -5,25 +5,24 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <section class="wrapper menu-wall">
-        <h1>
-            Menu &amp; reds</h1>
+        <h1>每日美食</h1>
         <nav class="menu-links">
             <ul class="clearfix">
-                <li><a href="#brunch">Brunch</a></li>
-                <li><a href="#lunch">Lunch</a></li>
-                <li><a href="#dinner">Dinner</a></li>
-                <li><a href="#winelist">Wine List</a></li>
+                <li><a href="#brunch">早餐</a></li>
+                <li><a href="#lunch">正餐</a></li>
+                <li><a href="#dinner">下午茶</a></li>
+                <li><a href="#winelist">夜宵</a></li>
             </ul>
         </nav>
         <!--/.menu-links-->
         <article id="brunch" class="menu-block">
             <h2 class="clearfix">
-                <span>Brunch</span><a class="back-top" href="#" name="brunch">back to top</a></h2>
+                <span>早餐</span><a class="back-top" href="#" name="brunch">back to top</a></h2>
             <div class="menu-item">
                 <div class="title">
-                    Sunrise shrimp &amp; Grits <span class="red">13.95</span></div>
+                    老字号冷馄饨人气爆，味道酸辣又清爽</div>
                 <div class="description">
-                    Blue crab gravy, peppers, onions, sausage, two poached eggs</div>
+                   冷馄饨好不好吃，关键要看酱汁调得好不好，配上酱油、醋和辣油，酸辣开胃.。</div>
             </div>
             <!--/.menu-item-->
             <div class="menu-item">
@@ -55,7 +54,7 @@
         <!--/.menu-block-->
         <article id="lunch" class="menu-block">
             <h2 class="clearfix">
-                <span>Lunch</span><a class="back-top" href="#" name="lunch">back to top</a></h2>
+                <span>正餐</span><a class="back-top" href="#" name="lunch">back to top</a></h2>
             <div class="menu-item">
                 <div class="title">
                     Sunrise shrimp &amp; Grits <span class="red">13.95</span></div>
@@ -92,7 +91,7 @@
         <!--/.menu-block-->
         <article id="dinner" class="menu-block">
             <h2 class="clearfix">
-                <span>Dinner</span><a class="back-top" href="#" name="dinner">back to top</a></h2>
+                <span>下午茶</span><a class="back-top" href="#" name="dinner">back to top</a></h2>
             <div class="menu-item">
                 <div class="title">
                     Sunrise shrimp &amp; Grits <span class="red">13.95</span></div>
@@ -129,7 +128,7 @@
         <!--/.menu-block-->
         <article id="winelist" class="menu-block">
             <h2 class="clearfix">
-                <span>Wine List</span><a class="back-top" href="#" name="winelist">back to top</a></h2>
+                <span>夜宵</span><a class="back-top" href="#" name="winelist">back to top</a></h2>
             <div class="menu-item">
                 <div class="title">
                     Sunrise shrimp &amp; Grits <span class="red">13.95</span></div>
